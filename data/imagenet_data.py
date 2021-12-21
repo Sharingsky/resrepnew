@@ -4,7 +4,7 @@ from data.dataset_util import DataIterator
 import os
 import torchvision.datasets as datasets
 
-IMGNET_TRAIN_DIR = 'imagenet_data'
+IMGNET_TRAIN_DIR = '/HOME/scz0088/run/dongrenwei/data/imagenet2012'
 
 class ImgnetStdTrainData(object):
 

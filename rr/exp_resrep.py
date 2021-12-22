@@ -1,3 +1,12 @@
+
+import os
+import sys
+rootpath = str("./")
+syspath = sys.path
+sys.path = []
+sys.path.append(rootpath)  # 将工程根目录加入到python搜索路径中
+sys.path.extend([rootpath + i for i in os.listdir(rootpath) if i[0] != "."])  # 将工程目录下的一级目录添加到python搜索路径中
+sys.path.extend(syspath)
 from constants import *
 from rr.resrep_builder import ResRepBuilder
 from rr.resrep_config import ResRepConfig
@@ -5,14 +14,12 @@ from rr.resrep_train import resrep_train_main
 from base_config import get_baseconfig_by_epoch
 from model_map import get_dataset_name_by_model_name
 from rr.resrep_scripts import *
-
 import argparse
 from ndp_test import general_test
-import os
-
+print(sys.path)
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-a', '--arch', default='sres50')
+    parser.add_argument('-a', '--arch', default='src56')
     parser.add_argument('-c', '--conti_or_fs', default='fs')
     parser.add_argument(
         '--local_rank', default=0, type=int,
@@ -51,7 +58,7 @@ if __name__ == '__main__':
         succeeding_strategy = rc_succeeding_strategy(9)
         pacesetter_dict = rc_pacesetter_dict(9)
         flops_func = calculate_rc56_flops
-        init_hdf5 = 'src56_train/finish.hdf5'
+        init_hdf5 = '../src56_train/finish.hdf5'
         target_layers = rc_internal_layers(9)
         lrs = LRSchedule(base_lr=0.01, max_epochs=480, lr_epoch_boundaries=None, lr_decay_factor=None,
                          linear_final_lr=None, cosine_minimum=0)

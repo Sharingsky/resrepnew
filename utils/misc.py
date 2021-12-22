@@ -200,7 +200,7 @@ def torch_accuracy(output, target, topk=(1,)) -> List[torch.Tensor]:
 
     ans = []
     for i in topk:
-        is_correct_i = is_correct[:i].view(-1).float().sum(0, keepdim=True)
+        is_correct_i = is_correct[:i].reshape(-1).float().sum(0, keepdim=True)
         ans.append(is_correct_i.mul_(100.0 / batch_size))
 
     return ans

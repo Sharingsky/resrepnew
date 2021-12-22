@@ -1,1 +1,37 @@
 2021-12-21 10:23:21,509 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:27:43,423 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:28:47,381 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:29:47,771 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:30:55,835 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:31:55,229 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:32:08,620 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-21 14:32:10,340 train INFO: num of params in hdf5=909475
+2021-12-21 14:32:11,768 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-21 14:32:28,281 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-21 14:32:29,951 train INFO: num of params in hdf5=909475
+2021-12-21 14:32:35,415 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-21 19:50:26,031 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-21 19:50:27,786 train INFO: num of params in hdf5=909475
+2021-12-21 19:50:33,328 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-22 14:44:31,309 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-22 14:44:34,029 train INFO: num of params in hdf5=909475
+2021-12-22 14:44:40,213 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-22 14:45:04,240 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-22 14:45:05,857 train INFO: num of params in hdf5=909475
+2021-12-22 14:45:11,125 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-22 14:45:11,192 train WARNING: A exception occurred during Engine initialization, give up running process
+2021-12-22 14:45:36,726 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-22 14:45:38,455 train INFO: num of params in hdf5=909475
+2021-12-22 14:45:43,850 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009

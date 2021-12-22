@@ -27,9 +27,13 @@ CONVERSION_EPSILON = 1e-5
 
 def train_one_step(compactor_mask_dict, resrep_config:ResRepConfig,
                    net, data, label, optimizer, criterion, if_accum_grad = False,
-                   gradient_mask_tensor = None):
+                   gradient_mask_tensor = None,cur_flops=None):
     pred = net(data)
-    loss = criterion(pred, label)
+    cur_flops=np.log(cur_flops)
+    if cur_flops is not None:
+        loss = criterion(pred, label)*cur_flops
+    else:
+        loss=criterion(pred, label)
     loss.backward()
     for compactor_param, mask in compactor_mask_dict.items():
         compactor_param.grad.data = mask * compactor_param.grad.data
@@ -251,9 +255,14 @@ def resrep_train_main(
                 if_accum_grad = ((iteration % cfg.grad_accum_iters) != 0)
 
                 train_net_time_start = time.time()
+                origin_flops = resrep_config.flops_func(cfg.deps)
+                remain_deps = get_deps_if_prune_low_metric(origin_deps=cfg.deps, model=model,
+                                                           threshold=CONVERSION_EPSILON,
+                                                           pacesetter_dict=resrep_config.pacesetter_dict)
+                remain_flops = resrep_config.flops_func(remain_deps)
                 acc, acc5, loss = train_one_step(compactor_mask_dict, resrep_config, model, data, label, optimizer,
                                                  criterion,
-                                                 if_accum_grad, gradient_mask_tensor=gradient_mask_tensor)
+                                                 if_accum_grad, gradient_mask_tensor=gradient_mask_tensor,cur_flops=remain_flops)
                 train_net_time_end = time.time()
 
                 if iteration > TRAIN_SPEED_START * max_iters and iteration < TRAIN_SPEED_END * max_iters:

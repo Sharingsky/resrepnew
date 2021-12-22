@@ -3,7 +3,7 @@ from torchvision import datasets, transforms
 import numpy as np
 from data.dataset_util import InfiniteDataLoader
 
-CIFAR10_PATH = 'cifar10_data'
+CIFAR10_PATH = 'D:\_1work\pycharmcode'
 MNIST_PATH = 'mnist_data'
 
 

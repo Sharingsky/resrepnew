@@ -35,3 +35,18 @@ Start training with pytorch version 1.7.1
 Start training with pytorch version 1.7.1
 2021-12-22 14:45:38,455 train INFO: num of params in hdf5=909475
 2021-12-22 14:45:43,850 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-23 19:20:15,246 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-23 19:20:16,885 train INFO: num of params in hdf5=909475
+2021-12-23 19:20:22,058 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-24 23:44:24,875 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-24 23:44:27,870 train INFO: num of params in hdf5=909475
+2021-12-24 23:44:33,914 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2021-12-26 12:18:20,162 train INFO: 
+
+Start training with pytorch version 1.7.1
+2021-12-26 12:18:23,120 train INFO: num of params in hdf5=909475
+2021-12-26 12:18:29,048 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009

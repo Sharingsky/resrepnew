@@ -29,11 +29,11 @@ def train_one_step(compactor_mask_dict, resrep_config:ResRepConfig,
                    net, data, label, optimizer, criterion, if_accum_grad = False,
                    gradient_mask_tensor = None,cur_flops=None):
     pred = net(data)
-    cur_flops=np.log(cur_flops)
-    if cur_flops is not None:
-        loss = criterion(pred, label)*cur_flops
-    else:
-        loss=criterion(pred, label)
+    # cur_flops=np.log(cur_flops)
+    # if cur_flops is not None:
+    #     loss = criterion(pred, label)*cur_flops
+    # else:
+    loss=criterion(pred, label)
     loss.backward()
     for compactor_param, mask in compactor_mask_dict.items():
         compactor_param.grad.data = mask * compactor_param.grad.data
@@ -100,7 +100,8 @@ def resrep_train_main(
                load_weights_keyword=None,
                keyword_to_lr_mult=None,
                auto_continue=False,save_hdf5_epochs=5):
-
+    #1.第一个epoch对所有的层进行相似度计算
+    #2.
     if no_l2_keywords is None:
         no_l2_keywords = []
     if type(no_l2_keywords) is not list:

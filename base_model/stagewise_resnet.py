@@ -38,8 +38,8 @@ class BasicBranch(nn.Module):
         assert len(deps) == 2
         self.conv1 = builder.Conv2dBNReLU(in_channels, deps[0], kernel_size=3, stride=stride, padding=1)
         self.conv2 = builder.Conv2dBN(deps[0], deps[1], kernel_size=3, stride=1, padding=1)
-
     def forward(self, x):
+
         return self.conv2(self.conv1(x))
 
 

@@ -25,9 +25,9 @@ TEST_BATCH_SIZE = 100
 
 CONVERSION_EPSILON = 1e-5
 
-def train_one_step(compactor_mask_dict, resrep_config:ResRepConfig,
+def train_one_step(resrep_config:ResRepConfig,
                    net, data, label, optimizer, criterion, if_accum_grad = False,
-                   gradient_mask_tensor = None,cur_flops=None):
+                   cur_flops=None):
     pred = net(data)
     # cur_flops=np.log(cur_flops)
     # if cur_flops is not None:
@@ -35,18 +35,10 @@ def train_one_step(compactor_mask_dict, resrep_config:ResRepConfig,
     # else:
     loss=criterion(pred, label)
     loss.backward()
-    for compactor_param, mask in compactor_mask_dict.items():
-        compactor_param.grad.data = mask * compactor_param.grad.data
-        lasso_grad = compactor_param.data * ((compactor_param.data ** 2).sum(dim=(1, 2, 3), keepdim=True) ** (-0.5))
-        compactor_param.grad.data.add_(resrep_config.lasso_strength, lasso_grad)
 
-    if not if_accum_grad:
-        if gradient_mask_tensor is not None:
-            for name, param in net.named_parameters():
-                if name in gradient_mask_tensor:
-                    param.grad = param.grad * gradient_mask_tensor[name]
-        optimizer.step()
-        optimizer.zero_grad()
+
+    optimizer.step()
+    optimizer.zero_grad()
     acc, acc5 = torch_accuracy(pred, label, (1,5))
     return acc, acc5, loss
 
@@ -91,6 +83,61 @@ def get_optimizer(cfg, resrep_config, model, no_l2_keywords, use_nesterov=False,
 
 def get_criterion(cfg):
     return CrossEntropyLoss()
+def covariance(vec1):
+    X=vec1.detach().numpy()
+    return np.cov(X)
+def similarity_kl(metric1,metric2):
+    metric1=torch.Tensor(metric1)
+    metric2=torch.Tensor(metric2)
+    metric2_1 = torch.inverse(metric2)
+    out_kl = 1/2*(torch.trace(torch.matmul(metric2_1,metric1))-torch.log(torch.norm(metric1,p=1)/torch.norm(metric2,p=1)))
+    return out_kl
+def similarity(metric1,metric2):
+    metric1=torch.Tensor(metric1)
+    metric2=torch.Tensor(metric2)
+    tr = torch.trace(torch.matmul(metric1,metric2))
+    out = tr/(torch.norm(metric1)*torch.norm(metric2))
+    return out
+def compute_similarity(model):
+    dict2compa = {}
+    namelist = []
+    paramlist = []
+    similarlist = []
+    for name, param in model.named_parameters():
+        if 'conv.weight' in name:
+            dict2compa[name] = param
+            paramlist.append(param)
+            namelist.append(name)
+            print(param.size())
+    for i in range(len(paramlist)):
+        metric1 = paramlist[i].view(paramlist[i].size()[0], -1).cpu()
+        co_metric1 = covariance(metric1)
+        for j in range(i+1,len(paramlist)):
+            if paramlist[i].size() != paramlist[j].size():
+                continue
+            metric2 = paramlist[j].view(paramlist[j].size()[0], -1).cpu()
+            co_metric2 = covariance(metric2)
+            similar = similarity(co_metric1,co_metric2)
+            similarlist.append((similar,(i,j)))
+    similarlist=sorted(similarlist,key=lambda x:x[0])
+    print(1)
+    return similarlist
+def compute_flops(model):
+    from thop import profile
+    inpu=torch.randn(size=(1,3,32,32)).cuda()
+    flops,params = profile(model,inputs=(inpu,))
+    print('flops:{}'.format(flops))
+def layer_zeros(model:nn.Module,fusion_mask):
+    conv_idx = -1
+    for name,param in model.named_parameters():
+        if 'conv' in name:
+            if 'conv.weight' in name:
+                conv_idx+=1
+            if fusion_mask[conv_idx]==0:
+                if param.grad is not None:
+                    param.data = 0 * param.data
+                    param.grad=0*param.grad
+                    param.requires_grad=False
 
 def resrep_train_main(
         local_rank,
@@ -202,22 +249,26 @@ def resrep_train_main(
         collected_train_loss_sum = 0
         collected_train_loss_count = 0
 
-        if gradient_mask is not None:
-            gradient_mask_tensor = {}
-            for name, value in gradient_mask.items():
-                gradient_mask_tensor[name] = torch.Tensor(value).cuda()
-        else:
-            gradient_mask_tensor = None
-
-        compactor_mask_dict = get_compactor_mask_dict(model)
-
+        similarity_list = compute_similarity(model)
+        compute_flops(model)
+        layer_fusion_per_epochs=5
+        fusion_mask = np.random.randint(2,size=58)
+        mask_times=0
         for epoch in range(done_epochs, cfg.max_epochs):
 
-            if epoch == 0 and engine.local_rank == 0:
-                val_during_train(epoch=epoch, iteration=iteration, tb_tags=tb_tags, engine=engine, model=model,
-                             val_data=val_data, criterion=criterion,
-                                 descrip_str='Begin',
-                             dataset_name=cfg.dataset_name, test_batch_size=TEST_BATCH_SIZE, tb_writer=tb_writer)
+            # if epoch == 0 and engine.local_rank == 0:
+                # val_during_train(epoch=epoch, iteration=iteration, tb_tags=tb_tags, engine=engine, model=model,
+                #              val_data=val_data, criterion=criterion,
+                #                  descrip_str='Begin',
+                #              dataset_name=cfg.dataset_name, test_batch_size=TEST_BATCH_SIZE, tb_writer=tb_writer)
+            if (epoch+1) % layer_fusion_per_epochs ==0:
+                mask_times+=1
+                for i in range(mask_times):
+                    for j in range(len(fusion_mask)):
+                        if fusion_mask[j]==0:
+                            fusion_mask[j]=1
+                            break
+                layer_zeros(model,fusion_mask=fusion_mask)
 
             if engine.distributed and hasattr(train_data, 'train_sampler'):
                 train_data.train_sampler.set_epoch(epoch)
@@ -235,18 +286,6 @@ def resrep_train_main(
 
             for _ in pbar:
 
-                if iteration > resrep_config.before_mask_iters:
-                    total_iters_in_compactor_phase = iteration - resrep_config.before_mask_iters
-                    if total_iters_in_compactor_phase > 0 and (total_iters_in_compactor_phase % resrep_config.mask_interval == 0):
-                        print('update mask at iter ', iteration)
-                        resrep_mask_model(origin_deps=cfg.deps, resrep_config=resrep_config, model=model)
-                        compactor_mask_dict = get_compactor_mask_dict(model=model)
-                        unmasked_deps = resrep_get_unmasked_deps(origin_deps=cfg.deps, model=model, pacesetter_dict=resrep_config.pacesetter_dict)
-                        engine.log('iter {}, unmasked deps {}'.format(iteration, list(unmasked_deps)))
-                        if total_iters_in_compactor_phase == resrep_config.mask_interval:
-                            engine.save_hdf5(os.path.join(cfg.output_dir, 'before_first_mask.hdf5'))
-
-
                 start_time = time.time()
                 data, label = load_cuda_data(train_data, dataset_name=cfg.dataset_name)
 
@@ -256,14 +295,10 @@ def resrep_train_main(
                 if_accum_grad = ((iteration % cfg.grad_accum_iters) != 0)
 
                 train_net_time_start = time.time()
-                origin_flops = resrep_config.flops_func(cfg.deps)
-                remain_deps = get_deps_if_prune_low_metric(origin_deps=cfg.deps, model=model,
-                                                           threshold=CONVERSION_EPSILON,
-                                                           pacesetter_dict=resrep_config.pacesetter_dict)
-                remain_flops = resrep_config.flops_func(remain_deps)
-                acc, acc5, loss = train_one_step(compactor_mask_dict, resrep_config, model, data, label, optimizer,
+
+                acc, acc5, loss = train_one_step(resrep_config, model, data, label, optimizer,
                                                  criterion,
-                                                 if_accum_grad, gradient_mask_tensor=gradient_mask_tensor,cur_flops=remain_flops)
+                                                 if_accum_grad)
                 train_net_time_end = time.time()
 
                 if iteration > TRAIN_SPEED_START * max_iters and iteration < TRAIN_SPEED_END * max_iters:
@@ -303,15 +338,6 @@ def resrep_train_main(
                     engine.update_iteration(iteration)
                     if (not engine.distributed) or (engine.distributed and engine.world_rank == 0):
                         engine.save_and_link_checkpoint(cfg.output_dir)
-                if iteration % 1000 == 0:
-                    origin_flops = resrep_config.flops_func(cfg.deps)
-                    remain_deps = get_deps_if_prune_low_metric(origin_deps=cfg.deps, model=model,
-                                                               threshold=CONVERSION_EPSILON,
-                                                               pacesetter_dict=resrep_config.pacesetter_dict)
-                    remain_flops = resrep_config.flops_func(remain_deps)
-                    engine.log('iter {}, thres {}, remain deps {}, FLOPs {:.4f}'.format(iteration, CONVERSION_EPSILON,
-                                                                                        remain_deps,
-                                                                                        remain_flops / origin_flops))
                 if iteration >= max_iters:
                     break
 

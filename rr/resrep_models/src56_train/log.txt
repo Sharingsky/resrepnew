@@ -50,3 +50,927 @@ Start training with pytorch version 1.7.1
 Start training with pytorch version 1.7.1
 2021-12-26 12:18:23,120 train INFO: num of params in hdf5=909475
 2021-12-26 12:18:29,048 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2022-03-03 19:12:49,466 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:12:52,208 train INFO: num of params in hdf5=909475
+2022-03-03 19:12:58,378 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2022-03-03 19:20:20,047 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:20:23,176 train INFO: num of params in hdf5=909475
+2022-03-03 19:20:29,380 train INFO: val at epoch 0, top1=93.58000, top5=99.81000, loss=0.339009
+2022-03-03 19:20:29,385 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-03 19:21:10,179 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:21:13,285 train INFO: num of params in hdf5=909475
+2022-03-03 19:21:26,315 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:21:29,487 train INFO: num of params in hdf5=909475
+2022-03-03 19:31:18,852 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:31:21,969 train INFO: num of params in hdf5=909475
+2022-03-03 19:31:22,218 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-03 19:32:47,439 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:32:50,534 train INFO: num of params in hdf5=909475
+2022-03-03 19:32:50,716 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-03 19:35:46,035 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:35:49,117 train INFO: num of params in hdf5=909475
+2022-03-03 19:36:39,147 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:36:42,335 train INFO: num of params in hdf5=909475
+2022-03-03 19:39:01,481 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:39:04,565 train INFO: num of params in hdf5=909475
+2022-03-03 19:39:44,576 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:39:47,715 train INFO: num of params in hdf5=909475
+2022-03-03 19:57:49,736 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-03 19:57:52,796 train INFO: num of params in hdf5=909475
+2022-03-04 08:29:59,224 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 08:30:02,711 train INFO: num of params in hdf5=909475
+2022-03-04 08:44:34,039 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 08:44:37,059 train INFO: num of params in hdf5=909475
+2022-03-04 08:44:37,534 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 08:45:38,018 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 08:45:41,043 train INFO: num of params in hdf5=909475
+2022-03-04 08:45:41,328 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:02:12,294 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:02:15,332 train INFO: num of params in hdf5=909475
+2022-03-04 09:02:15,615 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:02:43,410 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:02:46,501 train INFO: num of params in hdf5=909475
+2022-03-04 09:02:46,789 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:03:08,060 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:03:11,235 train INFO: num of params in hdf5=909475
+2022-03-04 09:03:11,670 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:03:59,680 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:04:02,749 train INFO: num of params in hdf5=909475
+2022-03-04 09:04:03,235 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:05:08,324 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:05:11,380 train INFO: num of params in hdf5=909475
+2022-03-04 09:05:11,914 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 09:05:40,742 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:05:43,845 train INFO: num of params in hdf5=909475
+2022-03-04 09:08:09,858 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 09:08:12,907 train INFO: num of params in hdf5=909475
+2022-03-04 10:23:38,224 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 10:23:41,390 train INFO: num of params in hdf5=909475
+2022-03-04 10:23:58,385 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 10:24:01,589 train INFO: num of params in hdf5=909475
+2022-03-04 19:03:01,596 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:04:52,135 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:04:54,956 train INFO: num of params in hdf5=909475
+2022-03-04 19:04:56,778 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:05:41,628 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:05:44,777 train INFO: num of params in hdf5=909475
+2022-03-04 19:05:48,042 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:06:43,315 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:06:44,967 train INFO: num of params in hdf5=909475
+2022-03-04 19:06:46,352 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:16:26,225 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:16:27,937 train INFO: num of params in hdf5=959849
+2022-03-04 19:16:29,352 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:42:30,635 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:42:33,861 train INFO: num of params in hdf5=959849
+2022-03-04 19:42:38,565 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 19:54:33,054 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 19:54:34,719 train INFO: num of params in hdf5=959849
+2022-03-04 19:54:36,160 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 20:00:46,938 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:00:48,609 train INFO: num of params in hdf5=959849
+2022-03-04 20:01:09,883 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:01:11,531 train INFO: num of params in hdf5=959849
+2022-03-04 20:01:12,922 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 20:09:20,872 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:09:22,569 train INFO: num of params in hdf5=959849
+2022-03-04 20:09:23,951 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 20:15:00,442 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:15:03,688 train INFO: num of params in hdf5=959849
+2022-03-04 20:30:23,155 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 20:31:10,573 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:31:12,278 train INFO: num of params in hdf5=959849
+2022-03-04 20:31:14,166 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-04 20:34:01,102 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:34:02,784 train INFO: num of params in hdf5=959849
+2022-03-04 20:34:26,990 train INFO: val at epoch 0, top1=9.84000, top5=51.00000, loss=121.370300
+2022-03-04 20:37:15,741 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:37:17,429 train INFO: num of params in hdf5=959849
+2022-03-04 20:38:00,754 train INFO: val at epoch 0, top1=6.80000, top5=50.08000, loss=4.544677
+2022-03-04 20:42:09,566 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:42:12,782 train INFO: num of params in hdf5=959849
+2022-03-04 20:42:23,180 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:42:26,454 train INFO: num of params in hdf5=959849
+2022-03-04 20:42:37,511 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:42:40,758 train INFO: num of params in hdf5=959849
+2022-03-04 20:44:53,841 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-04 20:44:55,577 train INFO: num of params in hdf5=959849
+2022-03-04 20:45:37,410 train INFO: val at epoch 0, top1=34.98000, top5=89.19000, loss=1.718653
+2022-03-04 20:47:07,663 train INFO: val at epoch 2, top1=60.14000, top5=96.26000, loss=1.106954
+2022-03-04 20:48:48,110 train INFO: num of params in hdf5=960253
+2022-03-04 20:48:52,137 train INFO: val at epoch 4, top1=67.54000, top5=96.65000, loss=0.983428
+2022-03-04 20:50:58,406 train INFO: val at epoch 6, top1=76.00000, top5=98.45000, loss=0.703149
+2022-03-04 20:53:21,634 train INFO: val at epoch 8, top1=79.41000, top5=98.81000, loss=0.603741
+2022-03-04 20:54:32,534 train INFO: num of params in hdf5=960253
+2022-03-04 20:55:51,959 train INFO: val at epoch 10, top1=79.17000, top5=98.94000, loss=0.603125
+2022-03-04 20:58:24,157 train INFO: val at epoch 12, top1=81.07000, top5=99.09000, loss=0.573399
+2022-03-04 21:00:44,460 train INFO: num of params in hdf5=960253
+2022-03-04 21:00:50,181 train INFO: val at epoch 14, top1=82.85000, top5=99.04000, loss=0.529212
+2022-03-04 21:03:21,382 train INFO: val at epoch 16, top1=82.83000, top5=99.26000, loss=0.528858
+2022-03-04 21:05:44,599 train INFO: val at epoch 18, top1=84.54000, top5=99.19000, loss=0.484715
+2022-03-04 21:06:47,805 train INFO: num of params in hdf5=960253
+2022-03-04 21:07:56,373 train INFO: val at epoch 20, top1=85.54000, top5=99.24000, loss=0.440982
+2022-03-04 21:10:08,215 train INFO: val at epoch 22, top1=84.10000, top5=99.16000, loss=0.510388
+2022-03-04 21:12:14,866 train INFO: num of params in hdf5=960253
+2022-03-04 21:12:19,903 train INFO: val at epoch 24, top1=86.32000, top5=99.54000, loss=0.420171
+2022-03-04 21:14:31,890 train INFO: val at epoch 26, top1=85.03000, top5=99.39000, loss=0.471739
+2022-03-04 21:16:43,674 train INFO: val at epoch 28, top1=83.41000, top5=99.40000, loss=0.525909
+2022-03-04 21:17:50,498 train INFO: num of params in hdf5=960253
+2022-03-04 21:19:04,229 train INFO: val at epoch 30, top1=86.45000, top5=99.41000, loss=0.440029
+2022-03-04 21:21:31,420 train INFO: val at epoch 32, top1=84.68000, top5=99.37000, loss=0.512343
+2022-03-04 21:23:54,451 train INFO: num of params in hdf5=960253
+2022-03-04 21:23:59,997 train INFO: val at epoch 34, top1=86.48000, top5=99.55000, loss=0.443618
+2022-03-04 21:26:29,923 train INFO: val at epoch 36, top1=86.42000, top5=99.42000, loss=0.439213
+2022-03-04 21:28:58,220 train INFO: val at epoch 38, top1=87.11000, top5=99.35000, loss=0.437558
+2022-03-04 21:30:09,758 train INFO: num of params in hdf5=960253
+2022-03-04 21:31:26,854 train INFO: val at epoch 40, top1=86.62000, top5=99.50000, loss=0.478666
+2022-03-04 21:34:06,473 train INFO: val at epoch 42, top1=86.63000, top5=99.37000, loss=0.476732
+2022-03-04 21:36:30,734 train INFO: num of params in hdf5=960253
+2022-03-04 21:36:36,544 train INFO: val at epoch 44, top1=87.16000, top5=99.41000, loss=0.441194
+2022-03-04 21:39:15,598 train INFO: val at epoch 46, top1=87.56000, top5=99.54000, loss=0.420576
+2022-03-04 21:41:52,837 train INFO: val at epoch 48, top1=87.03000, top5=99.54000, loss=0.448543
+2022-03-04 21:43:07,840 train INFO: num of params in hdf5=960253
+2022-03-04 21:44:24,832 train INFO: val at epoch 50, top1=87.61000, top5=99.54000, loss=0.435279
+2022-03-04 21:46:55,544 train INFO: val at epoch 52, top1=87.82000, top5=99.53000, loss=0.453465
+2022-03-04 21:49:20,526 train INFO: num of params in hdf5=960253
+2022-03-04 21:49:26,077 train INFO: val at epoch 54, top1=86.90000, top5=99.32000, loss=0.481690
+2022-03-04 21:51:55,613 train INFO: val at epoch 56, top1=87.26000, top5=99.59000, loss=0.474441
+2022-03-04 21:54:27,782 train INFO: val at epoch 58, top1=87.30000, top5=99.41000, loss=0.465375
+2022-03-04 21:55:38,797 train INFO: num of params in hdf5=960253
+2022-03-04 21:56:55,335 train INFO: val at epoch 60, top1=87.06000, top5=99.54000, loss=0.488222
+2022-03-04 21:59:23,569 train INFO: val at epoch 62, top1=87.68000, top5=99.60000, loss=0.454253
+2022-03-04 22:01:46,975 train INFO: num of params in hdf5=960253
+2022-03-04 22:01:52,500 train INFO: val at epoch 64, top1=87.47000, top5=99.43000, loss=0.490125
+2022-03-04 22:04:21,856 train INFO: val at epoch 66, top1=87.90000, top5=99.54000, loss=0.461758
+2022-03-04 22:06:50,311 train INFO: val at epoch 68, top1=88.06000, top5=99.59000, loss=0.454310
+2022-03-04 22:08:02,745 train INFO: num of params in hdf5=960253
+2022-03-04 22:09:20,506 train INFO: val at epoch 70, top1=88.27000, top5=99.50000, loss=0.442295
+2022-03-04 22:11:49,593 train INFO: val at epoch 72, top1=87.76000, top5=99.66000, loss=0.458979
+2022-03-04 22:14:10,456 train INFO: num of params in hdf5=960253
+2022-03-04 22:14:15,551 train INFO: val at epoch 74, top1=86.69000, top5=99.55000, loss=0.531632
+2022-03-04 22:16:42,195 train INFO: val at epoch 76, top1=88.00000, top5=99.61000, loss=0.486800
+2022-03-04 22:19:11,724 train INFO: val at epoch 78, top1=88.49000, top5=99.55000, loss=0.466863
+2022-03-04 22:20:23,680 train INFO: num of params in hdf5=960253
+2022-03-04 22:21:41,122 train INFO: val at epoch 80, top1=86.96000, top5=99.46000, loss=0.525008
+2022-03-04 22:24:08,147 train INFO: val at epoch 82, top1=88.27000, top5=99.56000, loss=0.484568
+2022-03-04 22:26:30,429 train INFO: num of params in hdf5=960253
+2022-03-04 22:26:35,667 train INFO: val at epoch 84, top1=87.70000, top5=99.48000, loss=0.482459
+2022-03-04 22:29:02,524 train INFO: val at epoch 86, top1=88.37000, top5=99.53000, loss=0.459907
+2022-03-04 22:31:31,476 train INFO: val at epoch 88, top1=88.36000, top5=99.56000, loss=0.472269
+2022-03-04 22:32:43,240 train INFO: num of params in hdf5=960253
+2022-03-04 22:33:58,648 train INFO: val at epoch 90, top1=88.11000, top5=99.58000, loss=0.487708
+2022-03-04 22:36:25,372 train INFO: val at epoch 92, top1=88.27000, top5=99.61000, loss=0.482278
+2022-03-04 22:38:48,868 train INFO: num of params in hdf5=960253
+2022-03-04 22:38:54,309 train INFO: val at epoch 94, top1=88.82000, top5=99.68000, loss=0.468821
+2022-03-04 22:41:22,922 train INFO: val at epoch 96, top1=88.53000, top5=99.56000, loss=0.465541
+2022-03-04 22:43:50,360 train INFO: val at epoch 98, top1=88.54000, top5=99.50000, loss=0.476534
+2022-03-04 22:45:01,224 train INFO: num of params in hdf5=960253
+2022-03-04 22:46:14,537 train INFO: val at epoch 100, top1=88.66000, top5=99.63000, loss=0.457522
+2022-03-04 22:48:45,038 train INFO: val at epoch 102, top1=88.34000, top5=99.55000, loss=0.487873
+2022-03-04 22:51:10,331 train INFO: num of params in hdf5=960253
+2022-03-04 22:51:15,772 train INFO: val at epoch 104, top1=87.96000, top5=99.63000, loss=0.515048
+2022-03-04 22:53:44,657 train INFO: val at epoch 106, top1=88.55000, top5=99.61000, loss=0.500067
+2022-03-04 22:56:14,212 train INFO: val at epoch 108, top1=87.81000, top5=99.59000, loss=0.516891
+2022-03-04 22:57:26,229 train INFO: num of params in hdf5=960253
+2022-03-04 22:58:43,250 train INFO: val at epoch 110, top1=88.59000, top5=99.55000, loss=0.485296
+2022-03-04 23:01:08,785 train INFO: val at epoch 112, top1=88.52000, top5=99.38000, loss=0.504251
+2022-03-04 23:03:18,461 train INFO: num of params in hdf5=960253
+2022-03-04 23:03:23,452 train INFO: val at epoch 114, top1=88.02000, top5=99.52000, loss=0.523082
+2022-03-04 23:05:43,201 train INFO: val at epoch 116, top1=88.75000, top5=99.55000, loss=0.481700
+2022-03-04 23:08:11,440 train INFO: val at epoch 118, top1=87.84000, top5=99.51000, loss=0.524584
+2022-03-04 23:09:24,010 train INFO: num of params in hdf5=960253
+2022-03-04 23:10:44,865 train INFO: val at epoch 120, top1=88.66000, top5=99.56000, loss=0.496766
+2022-03-04 23:13:16,900 train INFO: val at epoch 122, top1=88.10000, top5=99.59000, loss=0.539144
+2022-03-04 23:15:44,337 train INFO: num of params in hdf5=960253
+2022-03-04 23:15:49,850 train INFO: val at epoch 124, top1=89.16000, top5=99.57000, loss=0.485538
+2022-03-04 23:18:21,746 train INFO: val at epoch 126, top1=88.62000, top5=99.55000, loss=0.502592
+2022-03-04 23:20:49,814 train INFO: val at epoch 128, top1=88.53000, top5=99.59000, loss=0.496062
+2022-03-04 23:22:00,778 train INFO: num of params in hdf5=960253
+2022-03-04 23:23:17,136 train INFO: val at epoch 130, top1=89.36000, top5=99.59000, loss=0.470763
+2022-03-04 23:25:42,961 train INFO: val at epoch 132, top1=88.27000, top5=99.54000, loss=0.520007
+2022-03-04 23:28:03,436 train INFO: num of params in hdf5=960253
+2022-03-04 23:28:08,668 train INFO: val at epoch 134, top1=88.30000, top5=99.58000, loss=0.522597
+2022-03-04 23:30:31,489 train INFO: val at epoch 136, top1=89.01000, top5=99.48000, loss=0.525993
+2022-03-04 23:32:43,891 train INFO: val at epoch 138, top1=88.97000, top5=99.59000, loss=0.503182
+2022-03-04 23:33:44,680 train INFO: num of params in hdf5=960253
+2022-03-04 23:34:57,971 train INFO: val at epoch 140, top1=88.68000, top5=99.63000, loss=0.531784
+2022-03-04 23:37:25,471 train INFO: val at epoch 142, top1=88.27000, top5=99.54000, loss=0.529933
+2022-03-04 23:39:50,701 train INFO: num of params in hdf5=960253
+2022-03-04 23:39:56,214 train INFO: val at epoch 144, top1=88.29000, top5=99.57000, loss=0.542514
+2022-03-04 23:42:08,491 train INFO: val at epoch 146, top1=88.77000, top5=99.55000, loss=0.523329
+2022-03-04 23:44:34,617 train INFO: val at epoch 148, top1=88.40000, top5=99.53000, loss=0.541975
+2022-03-04 23:45:45,902 train INFO: num of params in hdf5=960253
+2022-03-04 23:47:02,952 train INFO: val at epoch 150, top1=89.37000, top5=99.47000, loss=0.511907
+2022-03-04 23:49:31,642 train INFO: val at epoch 152, top1=88.39000, top5=99.68000, loss=0.527427
+2022-03-04 23:51:56,164 train INFO: num of params in hdf5=960253
+2022-03-04 23:52:01,791 train INFO: val at epoch 154, top1=88.99000, top5=99.57000, loss=0.502671
+2022-03-04 23:54:35,049 train INFO: val at epoch 156, top1=88.34000, top5=99.55000, loss=0.532442
+2022-03-04 23:57:04,509 train INFO: val at epoch 158, top1=89.33000, top5=99.59000, loss=0.502361
+2022-03-04 23:58:17,685 train INFO: num of params in hdf5=960253
+2022-03-04 23:59:35,364 train INFO: val at epoch 160, top1=88.48000, top5=99.62000, loss=0.531066
+2022-03-05 00:02:04,669 train INFO: val at epoch 162, top1=89.02000, top5=99.55000, loss=0.519951
+2022-03-05 00:04:28,963 train INFO: num of params in hdf5=960253
+2022-03-05 00:04:34,591 train INFO: val at epoch 164, top1=88.31000, top5=99.53000, loss=0.563314
+2022-03-05 00:07:04,016 train INFO: val at epoch 166, top1=88.95000, top5=99.59000, loss=0.505738
+2022-03-05 00:09:32,109 train INFO: val at epoch 168, top1=88.31000, top5=99.59000, loss=0.541394
+2022-03-05 00:10:44,233 train INFO: num of params in hdf5=960253
+2022-03-05 00:12:01,101 train INFO: val at epoch 170, top1=89.19000, top5=99.49000, loss=0.499823
+2022-03-05 00:14:31,098 train INFO: val at epoch 172, top1=89.46000, top5=99.44000, loss=0.506782
+2022-03-05 00:16:54,992 train INFO: num of params in hdf5=960253
+2022-03-05 00:17:00,495 train INFO: val at epoch 174, top1=88.88000, top5=99.44000, loss=0.548506
+2022-03-05 00:19:29,695 train INFO: val at epoch 176, top1=88.61000, top5=99.38000, loss=0.542371
+2022-03-05 00:21:58,117 train INFO: val at epoch 178, top1=89.12000, top5=99.54000, loss=0.535047
+2022-03-05 00:23:10,301 train INFO: num of params in hdf5=960253
+2022-03-05 00:24:27,801 train INFO: val at epoch 180, top1=89.52000, top5=99.62000, loss=0.504377
+2022-03-05 00:26:55,638 train INFO: val at epoch 182, top1=88.93000, top5=99.56000, loss=0.507795
+2022-03-05 00:29:21,974 train INFO: num of params in hdf5=960253
+2022-03-05 00:29:27,535 train INFO: val at epoch 184, top1=88.70000, top5=99.51000, loss=0.541669
+2022-03-05 00:31:57,227 train INFO: val at epoch 186, top1=88.75000, top5=99.47000, loss=0.548058
+2022-03-05 00:34:27,274 train INFO: val at epoch 188, top1=89.08000, top5=99.49000, loss=0.546071
+2022-03-05 00:35:39,093 train INFO: num of params in hdf5=960253
+2022-03-05 00:36:55,974 train INFO: val at epoch 190, top1=88.99000, top5=99.41000, loss=0.523589
+2022-03-05 00:39:24,843 train INFO: val at epoch 192, top1=88.60000, top5=99.55000, loss=0.561396
+2022-03-05 00:41:47,752 train INFO: num of params in hdf5=960253
+2022-03-05 00:41:53,327 train INFO: val at epoch 194, top1=88.36000, top5=99.67000, loss=0.554878
+2022-03-05 00:44:22,718 train INFO: val at epoch 196, top1=89.64000, top5=99.47000, loss=0.515295
+2022-03-05 00:46:51,265 train INFO: val at epoch 198, top1=88.93000, top5=99.40000, loss=0.550682
+2022-03-05 00:48:02,280 train INFO: num of params in hdf5=960253
+2022-03-05 00:49:19,902 train INFO: val at epoch 200, top1=89.26000, top5=99.55000, loss=0.521198
+2022-03-05 00:51:49,761 train INFO: val at epoch 202, top1=89.39000, top5=99.56000, loss=0.516772
+2022-03-05 00:54:15,273 train INFO: num of params in hdf5=960253
+2022-03-05 00:54:20,764 train INFO: val at epoch 204, top1=89.23000, top5=99.50000, loss=0.568135
+2022-03-05 00:56:49,020 train INFO: val at epoch 206, top1=89.21000, top5=99.56000, loss=0.517234
+2022-03-05 00:59:18,166 train INFO: val at epoch 208, top1=89.22000, top5=99.52000, loss=0.547676
+2022-03-05 01:00:30,442 train INFO: num of params in hdf5=960253
+2022-03-05 01:01:47,504 train INFO: val at epoch 210, top1=89.18000, top5=99.61000, loss=0.537249
+2022-03-05 01:04:17,335 train INFO: val at epoch 212, top1=89.07000, top5=99.48000, loss=0.554875
+2022-03-05 01:06:41,900 train INFO: num of params in hdf5=960253
+2022-03-05 01:06:47,425 train INFO: val at epoch 214, top1=88.51000, top5=99.45000, loss=0.566042
+2022-03-05 01:09:15,903 train INFO: val at epoch 216, top1=89.42000, top5=99.52000, loss=0.541262
+2022-03-05 01:11:44,966 train INFO: val at epoch 218, top1=89.59000, top5=99.43000, loss=0.524064
+2022-03-05 01:12:57,172 train INFO: num of params in hdf5=960253
+2022-03-05 01:14:14,082 train INFO: val at epoch 220, top1=89.03000, top5=99.41000, loss=0.573766
+2022-03-05 01:16:41,523 train INFO: val at epoch 222, top1=88.95000, top5=99.58000, loss=0.561614
+2022-03-05 01:19:06,464 train INFO: num of params in hdf5=960253
+2022-03-05 01:19:12,097 train INFO: val at epoch 224, top1=89.81000, top5=99.63000, loss=0.533676
+2022-03-05 01:21:21,810 train INFO: val at epoch 226, top1=89.82000, top5=99.50000, loss=0.543281
+2022-03-05 01:23:13,148 train INFO: val at epoch 228, top1=89.55000, top5=99.50000, loss=0.531090
+2022-03-05 01:24:06,249 train INFO: num of params in hdf5=960253
+2022-03-05 01:25:04,359 train INFO: val at epoch 230, top1=90.16000, top5=99.62000, loss=0.519139
+2022-03-05 01:26:53,699 train INFO: val at epoch 232, top1=89.61000, top5=99.49000, loss=0.543811
+2022-03-05 01:28:38,344 train INFO: num of params in hdf5=960253
+2022-03-05 01:28:42,528 train INFO: val at epoch 234, top1=89.44000, top5=99.63000, loss=0.549276
+2022-03-05 01:30:27,743 train INFO: val at epoch 236, top1=90.01000, top5=99.52000, loss=0.522247
+2022-03-05 01:32:11,451 train INFO: val at epoch 238, top1=89.46000, top5=99.52000, loss=0.543960
+2022-03-05 01:33:01,839 train INFO: num of params in hdf5=960253
+2022-03-05 01:33:56,084 train INFO: val at epoch 240, top1=89.61000, top5=99.65000, loss=0.543490
+2022-03-05 01:35:40,434 train INFO: val at epoch 242, top1=89.74000, top5=99.62000, loss=0.547702
+2022-03-05 01:37:20,648 train INFO: num of params in hdf5=960253
+2022-03-05 01:37:24,780 train INFO: val at epoch 244, top1=89.65000, top5=99.55000, loss=0.548890
+2022-03-05 01:39:09,222 train INFO: val at epoch 246, top1=89.84000, top5=99.53000, loss=0.541698
+2022-03-05 01:40:53,152 train INFO: val at epoch 248, top1=89.69000, top5=99.52000, loss=0.543651
+2022-03-05 01:41:43,449 train INFO: num of params in hdf5=960253
+2022-03-05 01:42:37,178 train INFO: val at epoch 250, top1=89.57000, top5=99.54000, loss=0.528850
+2022-03-05 01:44:20,552 train INFO: val at epoch 252, top1=89.48000, top5=99.57000, loss=0.542164
+2022-03-05 01:46:00,067 train INFO: num of params in hdf5=960253
+2022-03-05 01:46:04,218 train INFO: val at epoch 254, top1=89.96000, top5=99.49000, loss=0.541327
+2022-03-05 01:47:48,256 train INFO: val at epoch 256, top1=90.06000, top5=99.61000, loss=0.537927
+2022-03-05 01:49:31,834 train INFO: val at epoch 258, top1=89.98000, top5=99.52000, loss=0.550530
+2022-03-05 01:50:21,787 train INFO: num of params in hdf5=960253
+2022-03-05 01:51:15,848 train INFO: val at epoch 260, top1=89.72000, top5=99.55000, loss=0.549367
+2022-03-05 01:52:59,160 train INFO: val at epoch 262, top1=89.85000, top5=99.58000, loss=0.529344
+2022-03-05 01:54:38,533 train INFO: num of params in hdf5=960253
+2022-03-05 01:54:42,615 train INFO: val at epoch 264, top1=89.37000, top5=99.64000, loss=0.587296
+2022-03-05 01:56:26,075 train INFO: val at epoch 266, top1=89.81000, top5=99.46000, loss=0.544428
+2022-03-05 01:58:09,945 train INFO: val at epoch 268, top1=89.43000, top5=99.54000, loss=0.564744
+2022-03-05 01:59:00,130 train INFO: num of params in hdf5=960253
+2022-03-05 01:59:54,278 train INFO: val at epoch 270, top1=89.96000, top5=99.60000, loss=0.552046
+2022-03-05 02:01:38,209 train INFO: val at epoch 272, top1=90.44000, top5=99.65000, loss=0.533505
+2022-03-05 02:03:17,858 train INFO: num of params in hdf5=960253
+2022-03-05 02:03:21,983 train INFO: val at epoch 274, top1=89.82000, top5=99.59000, loss=0.552321
+2022-03-05 02:05:05,511 train INFO: val at epoch 276, top1=90.06000, top5=99.64000, loss=0.546469
+2022-03-05 02:06:48,904 train INFO: val at epoch 278, top1=90.00000, top5=99.58000, loss=0.551572
+2022-03-05 02:07:38,926 train INFO: num of params in hdf5=960253
+2022-03-05 02:08:32,594 train INFO: val at epoch 280, top1=89.94000, top5=99.61000, loss=0.547399
+2022-03-05 02:10:15,719 train INFO: val at epoch 282, top1=90.43000, top5=99.59000, loss=0.551472
+2022-03-05 02:11:55,906 train INFO: num of params in hdf5=960253
+2022-03-05 02:12:00,017 train INFO: val at epoch 284, top1=90.28000, top5=99.61000, loss=0.559983
+2022-03-05 02:13:43,486 train INFO: val at epoch 286, top1=90.24000, top5=99.59000, loss=0.554875
+2022-03-05 02:15:26,948 train INFO: val at epoch 288, top1=89.69000, top5=99.56000, loss=0.556455
+2022-03-05 02:16:16,775 train INFO: num of params in hdf5=960253
+2022-03-05 02:17:10,891 train INFO: val at epoch 290, top1=90.30000, top5=99.66000, loss=0.539602
+2022-03-05 02:18:55,583 train INFO: val at epoch 292, top1=90.29000, top5=99.69000, loss=0.533626
+2022-03-05 02:20:35,452 train INFO: num of params in hdf5=960253
+2022-03-05 02:20:39,788 train INFO: val at epoch 294, top1=90.31000, top5=99.63000, loss=0.550561
+2022-03-05 02:22:23,550 train INFO: val at epoch 296, top1=90.33000, top5=99.59000, loss=0.544680
+2022-03-05 02:24:07,094 train INFO: val at epoch 298, top1=90.48000, top5=99.59000, loss=0.567147
+2022-03-05 02:24:57,063 train INFO: num of params in hdf5=960253
+2022-03-05 02:25:51,339 train INFO: val at epoch 300, top1=89.96000, top5=99.59000, loss=0.570939
+2022-03-05 02:27:34,958 train INFO: val at epoch 302, top1=90.39000, top5=99.56000, loss=0.570003
+2022-03-05 02:29:14,707 train INFO: num of params in hdf5=960253
+2022-03-05 02:29:18,876 train INFO: val at epoch 304, top1=90.65000, top5=99.63000, loss=0.570363
+2022-03-05 02:31:02,386 train INFO: val at epoch 306, top1=90.32000, top5=99.52000, loss=0.562611
+2022-03-05 02:32:46,089 train INFO: val at epoch 308, top1=90.68000, top5=99.54000, loss=0.541803
+2022-03-05 02:33:36,050 train INFO: num of params in hdf5=960253
+2022-03-05 02:34:29,890 train INFO: val at epoch 310, top1=90.51000, top5=99.57000, loss=0.569898
+2022-03-05 02:36:13,727 train INFO: val at epoch 312, top1=90.35000, top5=99.55000, loss=0.564124
+2022-03-05 02:37:53,714 train INFO: num of params in hdf5=960253
+2022-03-05 02:37:57,782 train INFO: val at epoch 314, top1=90.70000, top5=99.58000, loss=0.551466
+2022-03-05 02:39:41,391 train INFO: val at epoch 316, top1=90.55000, top5=99.55000, loss=0.571613
+2022-03-05 02:41:24,858 train INFO: val at epoch 318, top1=90.52000, top5=99.51000, loss=0.561440
+2022-03-05 02:42:14,375 train INFO: num of params in hdf5=960253
+2022-03-05 02:43:08,380 train INFO: val at epoch 320, top1=90.39000, top5=99.61000, loss=0.562534
+2022-03-05 02:44:51,950 train INFO: val at epoch 322, top1=90.69000, top5=99.54000, loss=0.564250
+2022-03-05 02:46:31,852 train INFO: num of params in hdf5=960253
+2022-03-05 02:46:35,930 train INFO: val at epoch 324, top1=90.74000, top5=99.61000, loss=0.557737
+2022-03-05 02:48:19,772 train INFO: val at epoch 326, top1=90.91000, top5=99.53000, loss=0.552471
+2022-03-05 02:50:04,985 train INFO: val at epoch 328, top1=90.79000, top5=99.67000, loss=0.550614
+2022-03-05 02:50:55,235 train INFO: num of params in hdf5=960253
+2022-03-05 02:51:48,803 train INFO: val at epoch 330, top1=91.00000, top5=99.58000, loss=0.546687
+2022-03-05 02:53:32,062 train INFO: val at epoch 332, top1=90.82000, top5=99.64000, loss=0.553115
+2022-03-05 02:55:11,667 train INFO: num of params in hdf5=960253
+2022-03-05 02:55:15,805 train INFO: val at epoch 334, top1=90.77000, top5=99.53000, loss=0.565370
+2022-03-05 02:56:59,318 train INFO: val at epoch 336, top1=90.53000, top5=99.58000, loss=0.564352
+2022-03-05 02:58:43,890 train INFO: val at epoch 338, top1=90.69000, top5=99.59000, loss=0.567629
+2022-03-05 02:59:33,706 train INFO: num of params in hdf5=960253
+2022-03-05 03:00:27,461 train INFO: val at epoch 340, top1=90.74000, top5=99.56000, loss=0.563007
+2022-03-05 03:02:11,122 train INFO: val at epoch 342, top1=90.71000, top5=99.55000, loss=0.576801
+2022-03-05 03:03:51,276 train INFO: num of params in hdf5=960253
+2022-03-05 03:03:55,418 train INFO: val at epoch 344, top1=90.75000, top5=99.60000, loss=0.560757
+2022-03-05 03:05:39,999 train INFO: val at epoch 346, top1=90.79000, top5=99.56000, loss=0.568854
+2022-03-05 03:07:23,394 train INFO: val at epoch 348, top1=91.02000, top5=99.63000, loss=0.557064
+2022-03-05 03:08:13,482 train INFO: num of params in hdf5=960253
+2022-03-05 03:09:07,393 train INFO: val at epoch 350, top1=90.77000, top5=99.50000, loss=0.573549
+2022-03-05 03:10:51,251 train INFO: val at epoch 352, top1=90.95000, top5=99.57000, loss=0.556451
+2022-03-05 03:12:30,815 train INFO: num of params in hdf5=960253
+2022-03-05 03:12:34,934 train INFO: val at epoch 354, top1=90.90000, top5=99.53000, loss=0.567485
+2022-03-05 03:14:19,711 train INFO: val at epoch 356, top1=90.86000, top5=99.55000, loss=0.570901
+2022-03-05 03:16:14,307 train INFO: val at epoch 358, top1=90.82000, top5=99.56000, loss=0.572191
+2022-03-05 03:17:03,835 train INFO: num of params in hdf5=960253
+2022-03-05 03:17:58,347 train INFO: val at epoch 360, top1=90.80000, top5=99.55000, loss=0.572864
+2022-03-05 03:19:42,077 train INFO: val at epoch 362, top1=90.89000, top5=99.55000, loss=0.561991
+2022-03-05 03:21:21,911 train INFO: num of params in hdf5=960253
+2022-03-05 03:21:25,980 train INFO: val at epoch 364, top1=90.57000, top5=99.63000, loss=0.566979
+2022-03-05 03:23:09,592 train INFO: val at epoch 366, top1=91.10000, top5=99.58000, loss=0.564161
+2022-03-05 03:24:53,530 train INFO: val at epoch 368, top1=90.93000, top5=99.57000, loss=0.573046
+2022-03-05 03:25:43,478 train INFO: num of params in hdf5=960253
+2022-03-05 03:26:37,284 train INFO: val at epoch 370, top1=90.97000, top5=99.58000, loss=0.568892
+2022-03-05 03:28:20,860 train INFO: val at epoch 372, top1=91.01000, top5=99.59000, loss=0.571108
+2022-03-05 03:30:00,701 train INFO: num of params in hdf5=960253
+2022-03-05 03:30:04,849 train INFO: val at epoch 374, top1=91.08000, top5=99.54000, loss=0.567633
+2022-03-05 03:31:48,536 train INFO: val at epoch 376, top1=90.91000, top5=99.53000, loss=0.564076
+2022-03-05 03:33:32,621 train INFO: val at epoch 378, top1=91.09000, top5=99.51000, loss=0.570857
+2022-03-05 03:34:22,742 train INFO: num of params in hdf5=960253
+2022-03-05 03:35:16,658 train INFO: val at epoch 380, top1=91.15000, top5=99.55000, loss=0.567305
+2022-03-05 03:37:00,065 train INFO: val at epoch 382, top1=91.10000, top5=99.51000, loss=0.561487
+2022-03-05 03:38:40,400 train INFO: num of params in hdf5=960253
+2022-03-05 03:38:44,538 train INFO: val at epoch 384, top1=91.07000, top5=99.52000, loss=0.569425
+2022-03-05 03:40:28,017 train INFO: val at epoch 386, top1=91.02000, top5=99.54000, loss=0.565579
+2022-03-05 03:42:11,942 train INFO: val at epoch 388, top1=91.04000, top5=99.54000, loss=0.568454
+2022-03-05 03:43:01,692 train INFO: num of params in hdf5=960253
+2022-03-05 03:43:55,588 train INFO: val at epoch 390, top1=90.92000, top5=99.54000, loss=0.567747
+2022-03-05 03:45:39,310 train INFO: val at epoch 392, top1=90.85000, top5=99.54000, loss=0.574069
+2022-03-05 03:47:18,855 train INFO: num of params in hdf5=960253
+2022-03-05 03:47:22,981 train INFO: val at epoch 394, top1=91.01000, top5=99.57000, loss=0.566682
+2022-03-05 03:49:06,616 train INFO: val at epoch 396, top1=91.06000, top5=99.57000, loss=0.564094
+2022-03-05 03:50:50,138 train INFO: val at epoch 398, top1=90.96000, top5=99.55000, loss=0.574451
+2022-03-05 03:51:40,255 train INFO: num of params in hdf5=960253
+2022-03-05 03:52:33,896 train INFO: val at epoch 400, top1=90.95000, top5=99.58000, loss=0.569623
+2022-03-05 03:54:18,046 train INFO: val at epoch 402, top1=90.92000, top5=99.57000, loss=0.571460
+2022-03-05 03:55:58,132 train INFO: num of params in hdf5=960253
+2022-03-05 03:56:02,247 train INFO: val at epoch 404, top1=90.93000, top5=99.60000, loss=0.571159
+2022-03-05 03:57:46,231 train INFO: val at epoch 406, top1=91.04000, top5=99.57000, loss=0.569449
+2022-03-05 03:59:29,697 train INFO: val at epoch 408, top1=91.13000, top5=99.59000, loss=0.564943
+2022-03-05 04:00:19,700 train INFO: num of params in hdf5=960253
+2022-03-05 04:01:13,784 train INFO: val at epoch 410, top1=91.11000, top5=99.60000, loss=0.561998
+2022-03-05 04:02:57,433 train INFO: val at epoch 412, top1=91.14000, top5=99.60000, loss=0.570929
+2022-03-05 04:04:37,070 train INFO: num of params in hdf5=960253
+2022-03-05 04:04:41,119 train INFO: val at epoch 414, top1=91.08000, top5=99.60000, loss=0.566185
+2022-03-05 04:06:24,674 train INFO: val at epoch 416, top1=91.08000, top5=99.62000, loss=0.568509
+2022-03-05 04:08:08,654 train INFO: val at epoch 418, top1=91.19000, top5=99.59000, loss=0.569088
+2022-03-05 04:08:58,515 train INFO: num of params in hdf5=960253
+2022-03-05 04:09:52,603 train INFO: val at epoch 420, top1=91.16000, top5=99.59000, loss=0.567206
+2022-03-05 04:11:36,339 train INFO: val at epoch 422, top1=91.18000, top5=99.60000, loss=0.565019
+2022-03-05 04:13:15,934 train INFO: num of params in hdf5=960253
+2022-03-05 04:13:20,042 train INFO: val at epoch 424, top1=91.19000, top5=99.56000, loss=0.565280
+2022-03-05 04:15:03,890 train INFO: val at epoch 426, top1=91.14000, top5=99.57000, loss=0.562107
+2022-03-05 04:16:47,208 train INFO: val at epoch 428, top1=91.02000, top5=99.60000, loss=0.565308
+2022-03-05 04:17:37,875 train INFO: num of params in hdf5=960253
+2022-03-05 04:18:31,905 train INFO: val at epoch 430, top1=91.01000, top5=99.58000, loss=0.573300
+2022-03-05 04:20:15,565 train INFO: val at epoch 432, top1=91.03000, top5=99.59000, loss=0.571211
+2022-03-05 04:21:55,367 train INFO: num of params in hdf5=960253
+2022-03-05 04:21:59,508 train INFO: val at epoch 434, top1=91.16000, top5=99.57000, loss=0.569033
+2022-03-05 04:23:43,143 train INFO: val at epoch 436, top1=91.05000, top5=99.56000, loss=0.565724
+2022-03-05 04:25:26,915 train INFO: val at epoch 438, top1=91.06000, top5=99.61000, loss=0.563352
+2022-03-05 04:26:16,763 train INFO: num of params in hdf5=960253
+2022-03-05 04:27:10,826 train INFO: val at epoch 440, top1=91.06000, top5=99.56000, loss=0.564024
+2022-03-05 04:28:54,426 train INFO: val at epoch 442, top1=91.25000, top5=99.58000, loss=0.563554
+2022-03-05 04:30:33,848 train INFO: num of params in hdf5=960253
+2022-03-05 04:30:38,149 train INFO: val at epoch 444, top1=91.08000, top5=99.59000, loss=0.564878
+2022-03-05 04:32:21,633 train INFO: val at epoch 446, top1=91.11000, top5=99.56000, loss=0.566584
+2022-03-05 04:34:05,401 train INFO: val at epoch 448, top1=91.14000, top5=99.61000, loss=0.569858
+2022-03-05 04:34:55,177 train INFO: num of params in hdf5=960253
+2022-03-05 04:35:49,714 train INFO: val at epoch 450, top1=91.16000, top5=99.57000, loss=0.568312
+2022-03-05 04:37:32,835 train INFO: val at epoch 452, top1=91.20000, top5=99.56000, loss=0.573879
+2022-03-05 04:39:12,777 train INFO: num of params in hdf5=960253
+2022-03-05 04:39:16,915 train INFO: val at epoch 454, top1=91.15000, top5=99.56000, loss=0.563196
+2022-03-05 04:41:01,471 train INFO: val at epoch 456, top1=91.09000, top5=99.61000, loss=0.569714
+2022-03-05 04:42:45,028 train INFO: val at epoch 458, top1=91.16000, top5=99.60000, loss=0.566462
+2022-03-05 04:43:34,897 train INFO: num of params in hdf5=960253
+2022-03-05 04:44:28,809 train INFO: val at epoch 460, top1=91.16000, top5=99.57000, loss=0.565730
+2022-03-05 04:46:12,401 train INFO: val at epoch 462, top1=91.01000, top5=99.58000, loss=0.571616
+2022-03-05 04:47:51,953 train INFO: num of params in hdf5=960253
+2022-03-05 04:47:56,070 train INFO: val at epoch 464, top1=91.12000, top5=99.60000, loss=0.567267
+2022-03-05 04:49:40,655 train INFO: val at epoch 466, top1=91.17000, top5=99.60000, loss=0.566291
+2022-03-05 04:51:23,986 train INFO: val at epoch 468, top1=91.14000, top5=99.57000, loss=0.570364
+2022-03-05 04:52:13,392 train INFO: num of params in hdf5=960253
+2022-03-05 04:53:07,172 train INFO: val at epoch 470, top1=91.17000, top5=99.58000, loss=0.567202
+2022-03-05 04:54:01,036 train INFO: val at epoch 471, top1=91.18000, top5=99.59000, loss=0.564391
+2022-03-05 04:54:54,521 train INFO: val at epoch 472, top1=91.07000, top5=99.59000, loss=0.566763
+2022-03-05 04:55:48,173 train INFO: val at epoch 473, top1=91.10000, top5=99.55000, loss=0.564589
+2022-03-05 04:56:37,906 train INFO: num of params in hdf5=960253
+2022-03-05 04:56:41,995 train INFO: val at epoch 474, top1=91.08000, top5=99.60000, loss=0.562059
+2022-03-05 04:57:35,670 train INFO: val at epoch 475, top1=91.14000, top5=99.57000, loss=0.570564
+2022-03-05 04:58:29,140 train INFO: val at epoch 476, top1=90.97000, top5=99.57000, loss=0.566359
+2022-03-05 04:59:22,929 train INFO: val at epoch 477, top1=91.21000, top5=99.59000, loss=0.567081
+2022-03-05 05:00:16,440 train INFO: val at epoch 478, top1=91.18000, top5=99.60000, loss=0.568251
+2022-03-05 05:01:06,679 train INFO: num of params in hdf5=960253
+2022-03-05 05:01:10,776 train INFO: val at epoch 479, top1=91.24000, top5=99.57000, loss=0.570306
+2022-03-05 05:01:10,778 train INFO: TRAIN speed: from 37488 to 74976 iterations, batch_size=64, examples=2399168, total_net_time=1649.7654, examples/sec=1454.248001238873
+2022-03-05 05:01:11,056 train INFO: num of params in hdf5=960253
+2022-03-05 05:01:11,056 train INFO: TRAIN LOSS collected over last 3 epochs: 0.000986
+2022-03-05 08:44:20,090 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-05 08:44:24,338 train INFO: num of params in hdf5=959849
+2022-03-06 16:07:52,240 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:07:55,013 train INFO: num of params in hdf5=860083
+2022-03-06 16:08:16,949 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:08:18,882 train INFO: num of params in hdf5=860083
+2022-03-06 16:08:20,439 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:09:14,684 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:09:16,485 train INFO: num of params in hdf5=860083
+2022-03-06 16:09:17,893 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:10:26,558 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:10:28,344 train INFO: num of params in hdf5=860083
+2022-03-06 16:10:29,795 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:11:07,045 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:11:10,114 train INFO: num of params in hdf5=860083
+2022-03-06 16:12:39,554 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:13:05,219 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:13:06,912 train INFO: num of params in hdf5=860083
+2022-03-06 16:14:32,559 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:14:34,400 train INFO: num of params in hdf5=860083
+2022-03-06 16:14:35,881 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:15:15,446 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:15:17,226 train INFO: num of params in hdf5=860083
+2022-03-06 16:15:38,233 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:15:40,128 train INFO: num of params in hdf5=860083
+2022-03-06 16:16:40,560 train INFO: val at epoch 0, top1=93.59000, top5=99.75000, loss=0.345008
+2022-03-06 16:16:40,869 train WARNING: A exception occurred during Engine initialization, give up running process
+2022-03-06 16:17:26,707 train INFO: 
+
+Start training with pytorch version 1.7.1
+2022-03-06 16:17:28,604 train INFO: num of params in hdf5=860083
+2022-03-06 16:18:30,464 train INFO: val at epoch 0, top1=93.11000, top5=99.74000, loss=0.358424
+2022-03-06 16:20:38,167 train INFO: val at epoch 2, top1=55.09000, top5=95.14000, loss=1.264950
+2022-03-06 16:23:08,343 train INFO: num of params in hdf5=860271
+2022-03-06 16:23:14,242 train INFO: val at epoch 4, top1=61.24000, top5=96.23000, loss=1.088031
+2022-03-06 16:25:49,398 train INFO: val at epoch 6, top1=65.59000, top5=97.07000, loss=0.979891
+2022-03-06 16:28:16,366 train INFO: val at epoch 8, top1=67.09000, top5=97.51000, loss=0.943703
+2022-03-06 16:29:28,482 train INFO: num of params in hdf5=860271
+2022-03-06 16:30:54,518 train INFO: val at epoch 10, top1=68.70000, top5=97.77000, loss=0.880116
+2022-03-06 16:34:10,361 train INFO: val at epoch 12, top1=71.01000, top5=97.80000, loss=0.839712
+2022-03-06 16:37:34,236 train INFO: num of params in hdf5=860271
+2022-03-06 16:37:42,300 train INFO: val at epoch 14, top1=72.62000, top5=98.23000, loss=0.783751
+2022-03-06 16:41:32,764 train INFO: val at epoch 16, top1=73.36000, top5=98.26000, loss=0.765059
+2022-03-06 16:45:21,528 train INFO: val at epoch 18, top1=73.22000, top5=98.12000, loss=0.798771
+2022-03-06 16:47:12,905 train INFO: num of params in hdf5=860271
+2022-03-06 16:49:09,352 train INFO: val at epoch 20, top1=73.12000, top5=98.41000, loss=0.777565
+2022-03-06 16:52:57,399 train INFO: val at epoch 22, top1=76.25000, top5=98.69000, loss=0.692029
+2022-03-06 16:56:38,481 train INFO: num of params in hdf5=860271
+2022-03-06 16:56:46,116 train INFO: val at epoch 24, top1=74.93000, top5=98.63000, loss=0.727671
+2022-03-06 17:00:32,344 train INFO: val at epoch 26, top1=75.61000, top5=98.45000, loss=0.708906
+2022-03-06 17:04:17,943 train INFO: val at epoch 28, top1=78.20000, top5=98.67000, loss=0.657011
+2022-03-06 17:06:07,866 train INFO: num of params in hdf5=860271
+2022-03-06 17:08:04,371 train INFO: val at epoch 30, top1=79.16000, top5=98.86000, loss=0.626211
+2022-03-06 17:11:58,298 train INFO: val at epoch 32, top1=78.15000, top5=98.69000, loss=0.637880
+2022-03-06 17:15:34,461 train INFO: num of params in hdf5=860271
+2022-03-06 17:15:42,148 train INFO: val at epoch 34, top1=77.49000, top5=98.72000, loss=0.652205
+2022-03-06 17:19:26,702 train INFO: val at epoch 36, top1=79.49000, top5=99.05000, loss=0.595818
+2022-03-06 17:23:16,745 train INFO: val at epoch 38, top1=78.79000, top5=98.95000, loss=0.637772
+2022-03-06 17:25:12,529 train INFO: num of params in hdf5=860271
+2022-03-06 17:27:09,867 train INFO: val at epoch 40, top1=79.75000, top5=98.85000, loss=0.598807
+2022-03-06 17:30:53,790 train INFO: val at epoch 42, top1=78.81000, top5=98.73000, loss=0.634052
+2022-03-06 17:34:32,730 train INFO: num of params in hdf5=860271
+2022-03-06 17:34:40,908 train INFO: val at epoch 44, top1=80.10000, top5=98.81000, loss=0.596852
+2022-03-06 17:38:27,582 train INFO: val at epoch 46, top1=79.36000, top5=98.80000, loss=0.610435
+2022-03-06 17:42:20,334 train INFO: val at epoch 48, top1=80.43000, top5=99.12000, loss=0.585033
+2022-03-06 17:44:12,491 train INFO: num of params in hdf5=860271
+2022-03-06 17:46:09,462 train INFO: val at epoch 50, top1=79.94000, top5=98.99000, loss=0.596025
+2022-03-06 17:49:53,862 train INFO: val at epoch 52, top1=81.14000, top5=99.05000, loss=0.569017
+2022-03-06 17:53:32,630 train INFO: num of params in hdf5=860271
+2022-03-06 17:53:40,306 train INFO: val at epoch 54, top1=81.32000, top5=98.91000, loss=0.570205
+2022-03-06 17:57:24,164 train INFO: val at epoch 56, top1=81.17000, top5=99.01000, loss=0.571427
+2022-03-06 18:01:07,220 train INFO: val at epoch 58, top1=81.49000, top5=99.07000, loss=0.554902
+2022-03-06 18:02:56,192 train INFO: num of params in hdf5=860271
+2022-03-06 18:04:53,098 train INFO: val at epoch 60, top1=82.06000, top5=99.03000, loss=0.540812
+2022-03-06 18:08:42,209 train INFO: val at epoch 62, top1=81.16000, top5=99.09000, loss=0.565875
+2022-03-06 18:12:27,173 train INFO: num of params in hdf5=860271
+2022-03-06 18:12:35,169 train INFO: val at epoch 64, top1=81.89000, top5=98.95000, loss=0.559405
+2022-03-06 18:16:19,285 train INFO: val at epoch 66, top1=81.27000, top5=99.00000, loss=0.574989
+2022-03-06 18:19:22,619 train INFO: val at epoch 68, top1=81.16000, top5=98.92000, loss=0.571948
+2022-03-06 18:20:59,308 train INFO: num of params in hdf5=860271
+2022-03-06 18:22:46,255 train INFO: val at epoch 70, top1=82.39000, top5=99.07000, loss=0.536603
+2022-03-06 18:25:43,952 train INFO: val at epoch 72, top1=81.81000, top5=99.18000, loss=0.542259
+2022-03-06 18:28:29,075 train INFO: num of params in hdf5=860271
+2022-03-06 18:28:35,297 train INFO: val at epoch 74, top1=81.98000, top5=99.18000, loss=0.541682
+2022-03-06 18:31:27,732 train INFO: val at epoch 76, top1=81.99000, top5=98.98000, loss=0.561429
+2022-03-06 18:34:20,536 train INFO: val at epoch 78, top1=80.90000, top5=99.00000, loss=0.576787
+2022-03-06 18:35:41,070 train INFO: num of params in hdf5=860271
+2022-03-06 18:37:08,934 train INFO: val at epoch 80, top1=81.32000, top5=98.93000, loss=0.569244
+2022-03-06 18:39:56,089 train INFO: val at epoch 82, top1=82.47000, top5=99.08000, loss=0.531599
+2022-03-06 18:42:40,148 train INFO: num of params in hdf5=860271
+2022-03-06 18:42:46,261 train INFO: val at epoch 84, top1=81.59000, top5=99.12000, loss=0.554579
+2022-03-06 18:45:39,245 train INFO: val at epoch 86, top1=81.35000, top5=99.07000, loss=0.573491
+2022-03-06 18:48:32,900 train INFO: val at epoch 88, top1=81.08000, top5=98.93000, loss=0.585332
+2022-03-06 18:49:57,154 train INFO: num of params in hdf5=860271
+2022-03-06 18:51:27,504 train INFO: val at epoch 90, top1=82.93000, top5=99.25000, loss=0.522412
+2022-03-06 18:54:22,356 train INFO: val at epoch 92, top1=81.33000, top5=98.97000, loss=0.582022
+2022-03-06 18:57:13,688 train INFO: num of params in hdf5=860271
+2022-03-06 18:57:20,010 train INFO: val at epoch 94, top1=82.59000, top5=99.34000, loss=0.538025
+2022-03-06 19:00:15,054 train INFO: val at epoch 96, top1=81.77000, top5=99.06000, loss=0.567035
+2022-03-06 19:03:01,720 train INFO: val at epoch 98, top1=83.09000, top5=99.27000, loss=0.518460
+2022-03-06 19:04:18,016 train INFO: num of params in hdf5=860271
+2022-03-06 19:05:43,750 train INFO: val at epoch 100, top1=82.66000, top5=99.05000, loss=0.535304
+2022-03-06 19:08:26,076 train INFO: val at epoch 102, top1=81.21000, top5=99.14000, loss=0.572143
+2022-03-06 19:11:18,499 train INFO: num of params in hdf5=860271
+2022-03-06 19:11:24,659 train INFO: val at epoch 104, top1=82.69000, top5=99.17000, loss=0.535314
+2022-03-06 19:14:20,593 train INFO: val at epoch 106, top1=83.11000, top5=99.16000, loss=0.513548
+2022-03-06 19:17:18,570 train INFO: val at epoch 108, top1=82.16000, top5=99.26000, loss=0.553730
+2022-03-06 19:18:42,073 train INFO: num of params in hdf5=860271
+2022-03-06 19:20:10,850 train INFO: val at epoch 110, top1=81.73000, top5=99.29000, loss=0.553296
+2022-03-06 19:22:57,636 train INFO: val at epoch 112, top1=82.59000, top5=99.19000, loss=0.547791
+2022-03-06 19:25:28,529 train INFO: num of params in hdf5=860271
+2022-03-06 19:25:35,025 train INFO: val at epoch 114, top1=83.72000, top5=99.14000, loss=0.514996
+2022-03-06 19:28:11,355 train INFO: val at epoch 116, top1=82.97000, top5=99.18000, loss=0.525093
+2022-03-06 19:30:48,944 train INFO: val at epoch 118, top1=83.10000, top5=99.20000, loss=0.532492
+2022-03-06 19:32:08,015 train INFO: num of params in hdf5=860271
+2022-03-06 19:33:48,996 train INFO: val at epoch 120, top1=83.07000, top5=99.22000, loss=0.530330
+2022-03-06 19:36:49,014 train INFO: val at epoch 122, top1=82.08000, top5=99.03000, loss=0.569110
+2022-03-06 19:39:45,022 train INFO: num of params in hdf5=860271
+2022-03-06 19:39:52,068 train INFO: val at epoch 124, top1=83.62000, top5=99.36000, loss=0.513175
+2022-03-06 19:42:56,415 train INFO: val at epoch 126, top1=82.46000, top5=99.24000, loss=0.547139
+2022-03-06 19:46:00,192 train INFO: val at epoch 128, top1=82.05000, top5=99.14000, loss=0.549247
+2022-03-06 19:47:30,391 train INFO: num of params in hdf5=860271
+2022-03-06 19:49:04,555 train INFO: val at epoch 130, top1=83.96000, top5=99.22000, loss=0.501501
+2022-03-06 19:52:03,557 train INFO: val at epoch 132, top1=82.26000, top5=99.18000, loss=0.560951
+2022-03-06 19:54:36,158 train INFO: num of params in hdf5=860271
+2022-03-06 19:54:42,243 train INFO: val at epoch 134, top1=81.13000, top5=99.14000, loss=0.586536
+2022-03-06 19:57:20,638 train INFO: val at epoch 136, top1=82.56000, top5=99.38000, loss=0.536106
+2022-03-06 19:59:53,657 train INFO: val at epoch 138, top1=83.24000, top5=99.29000, loss=0.523428
+2022-03-06 20:01:07,229 train INFO: num of params in hdf5=860271
+2022-03-06 20:02:26,239 train INFO: val at epoch 140, top1=82.98000, top5=99.16000, loss=0.531019
+2022-03-06 20:04:59,639 train INFO: val at epoch 142, top1=82.10000, top5=99.22000, loss=0.550017
+2022-03-06 20:07:28,266 train INFO: num of params in hdf5=860271
+2022-03-06 20:07:34,079 train INFO: val at epoch 144, top1=82.52000, top5=99.29000, loss=0.550374
+2022-03-06 20:10:06,987 train INFO: val at epoch 146, top1=82.35000, top5=99.11000, loss=0.554852
+2022-03-06 20:12:39,530 train INFO: val at epoch 148, top1=82.99000, top5=99.27000, loss=0.508230
+2022-03-06 20:13:54,302 train INFO: num of params in hdf5=860271
+2022-03-06 20:15:13,874 train INFO: val at epoch 150, top1=82.14000, top5=99.24000, loss=0.557198
+2022-03-06 20:17:47,281 train INFO: val at epoch 152, top1=82.63000, top5=99.25000, loss=0.548618
+2022-03-06 20:20:15,226 train INFO: num of params in hdf5=860271
+2022-03-06 20:20:21,082 train INFO: val at epoch 154, top1=83.68000, top5=99.21000, loss=0.508889
+2022-03-06 20:22:53,882 train INFO: val at epoch 156, top1=82.99000, top5=99.40000, loss=0.537693
+2022-03-06 20:25:27,934 train INFO: val at epoch 158, top1=83.61000, top5=99.32000, loss=0.516222
+2022-03-06 20:26:41,437 train INFO: num of params in hdf5=860271
+2022-03-06 20:28:03,386 train INFO: val at epoch 160, top1=82.83000, top5=99.33000, loss=0.555313
+2022-03-06 20:31:28,229 train INFO: val at epoch 162, top1=83.41000, top5=99.28000, loss=0.522612
+2022-03-06 20:35:21,728 train INFO: num of params in hdf5=860271
+2022-03-06 20:35:29,938 train INFO: val at epoch 164, top1=82.38000, top5=99.28000, loss=0.558668
+2022-03-06 20:39:28,144 train INFO: val at epoch 166, top1=83.30000, top5=99.16000, loss=0.527105
+2022-03-06 20:43:20,853 train INFO: val at epoch 168, top1=82.65000, top5=99.34000, loss=0.535927
+2022-03-06 20:45:16,388 train INFO: num of params in hdf5=860271
+2022-03-06 20:47:17,319 train INFO: val at epoch 170, top1=82.53000, top5=99.12000, loss=0.552417
+2022-03-06 20:51:16,577 train INFO: val at epoch 172, top1=83.81000, top5=99.36000, loss=0.508192
+2022-03-06 20:55:06,042 train INFO: num of params in hdf5=860271
+2022-03-06 20:55:13,753 train INFO: val at epoch 174, top1=83.76000, top5=99.27000, loss=0.515174
+2022-03-06 20:57:58,277 train INFO: val at epoch 176, top1=83.91000, top5=99.27000, loss=0.510378
+2022-03-06 21:00:31,975 train INFO: val at epoch 178, top1=83.37000, top5=99.20000, loss=0.535774
+2022-03-06 21:01:43,682 train INFO: num of params in hdf5=860271
+2022-03-06 21:03:02,135 train INFO: val at epoch 180, top1=83.01000, top5=99.37000, loss=0.535263
+2022-03-06 21:05:32,451 train INFO: val at epoch 182, top1=83.48000, top5=99.32000, loss=0.520744
+2022-03-06 21:07:52,699 train INFO: num of params in hdf5=860271
+2022-03-06 21:07:59,314 train INFO: val at epoch 184, top1=83.97000, top5=99.28000, loss=0.506243
+2022-03-06 21:10:21,417 train INFO: val at epoch 186, top1=82.90000, top5=99.29000, loss=0.527684
+2022-03-06 21:12:41,576 train INFO: val at epoch 188, top1=83.51000, top5=99.48000, loss=0.520747
+2022-03-06 21:13:46,962 train INFO: num of params in hdf5=860271
+2022-03-06 21:14:58,372 train INFO: val at epoch 190, top1=83.35000, top5=99.34000, loss=0.527714
+2022-03-06 21:17:13,908 train INFO: val at epoch 192, top1=83.80000, top5=99.29000, loss=0.523342
+2022-03-06 21:19:26,145 train INFO: num of params in hdf5=860271
+2022-03-06 21:19:32,330 train INFO: val at epoch 194, top1=84.31000, top5=99.34000, loss=0.494575
+2022-03-06 21:21:50,939 train INFO: val at epoch 196, top1=83.96000, top5=99.38000, loss=0.508181
+2022-03-06 21:24:13,213 train INFO: val at epoch 198, top1=84.07000, top5=99.36000, loss=0.498396
+2022-03-06 21:25:20,926 train INFO: num of params in hdf5=860271
+2022-03-06 21:26:35,256 train INFO: val at epoch 200, top1=83.52000, top5=99.22000, loss=0.520500
+2022-03-06 21:28:57,023 train INFO: val at epoch 202, top1=82.83000, top5=99.32000, loss=0.537375
+2022-03-06 21:31:12,122 train INFO: num of params in hdf5=860271
+2022-03-06 21:31:18,484 train INFO: val at epoch 204, top1=83.75000, top5=99.29000, loss=0.509532
+2022-03-06 21:33:40,218 train INFO: val at epoch 206, top1=83.30000, top5=99.24000, loss=0.544159
+2022-03-06 21:36:01,945 train INFO: val at epoch 208, top1=83.53000, top5=99.21000, loss=0.530104
+2022-03-06 21:37:09,693 train INFO: num of params in hdf5=860271
+2022-03-06 21:38:23,718 train INFO: val at epoch 210, top1=84.08000, top5=99.28000, loss=0.504734
+2022-03-06 21:40:45,524 train INFO: val at epoch 212, top1=83.80000, top5=99.34000, loss=0.524649
+2022-03-06 21:43:01,247 train INFO: num of params in hdf5=860271
+2022-03-06 21:43:07,482 train INFO: val at epoch 214, top1=83.42000, top5=99.36000, loss=0.530518
+2022-03-06 21:45:30,589 train INFO: val at epoch 216, top1=82.86000, top5=99.22000, loss=0.548058
+2022-03-06 21:47:55,820 train INFO: val at epoch 218, top1=84.16000, top5=99.37000, loss=0.500527
+2022-03-06 21:49:04,805 train INFO: num of params in hdf5=860271
+2022-03-06 21:50:18,620 train INFO: val at epoch 220, top1=83.70000, top5=99.26000, loss=0.516862
+2022-03-06 21:52:41,051 train INFO: val at epoch 222, top1=82.68000, top5=99.24000, loss=0.556027
+2022-03-06 21:54:56,509 train INFO: num of params in hdf5=860271
+2022-03-06 21:55:02,858 train INFO: val at epoch 224, top1=83.91000, top5=99.31000, loss=0.510135
+2022-03-06 21:57:23,981 train INFO: val at epoch 226, top1=83.94000, top5=99.39000, loss=0.507172
+2022-03-06 21:59:41,429 train INFO: val at epoch 228, top1=83.82000, top5=99.50000, loss=0.515151
+2022-03-06 22:00:45,237 train INFO: num of params in hdf5=860271
+2022-03-06 22:01:55,091 train INFO: val at epoch 230, top1=82.90000, top5=99.34000, loss=0.547300
+2022-03-06 22:04:10,490 train INFO: val at epoch 232, top1=84.39000, top5=99.37000, loss=0.493848
+2022-03-06 22:06:16,902 train INFO: num of params in hdf5=860271
+2022-03-06 22:06:23,197 train INFO: val at epoch 234, top1=83.50000, top5=99.41000, loss=0.530965
+2022-03-06 22:08:33,826 train INFO: val at epoch 236, top1=84.28000, top5=99.40000, loss=0.496749
+2022-03-06 22:10:35,667 train INFO: val at epoch 238, top1=84.58000, top5=99.44000, loss=0.502595
+2022-03-06 22:11:35,158 train INFO: num of params in hdf5=860271
+2022-03-06 22:12:45,106 train INFO: val at epoch 240, top1=83.97000, top5=99.35000, loss=0.505327
+2022-03-06 22:15:02,313 train INFO: val at epoch 242, top1=84.57000, top5=99.42000, loss=0.491241
+2022-03-06 22:17:13,137 train INFO: num of params in hdf5=860271
+2022-03-06 22:17:19,325 train INFO: val at epoch 244, top1=84.41000, top5=99.37000, loss=0.499679
+2022-03-06 22:19:37,057 train INFO: val at epoch 246, top1=84.48000, top5=99.45000, loss=0.495305
+2022-03-06 22:21:54,669 train INFO: val at epoch 248, top1=84.29000, top5=99.34000, loss=0.505856
+2022-03-06 22:23:00,820 train INFO: num of params in hdf5=860271
+2022-03-06 22:24:12,464 train INFO: val at epoch 250, top1=83.73000, top5=99.24000, loss=0.513528
+2022-03-06 22:26:29,162 train INFO: val at epoch 252, top1=84.02000, top5=99.34000, loss=0.513130
+2022-03-06 22:28:40,533 train INFO: num of params in hdf5=860271
+2022-03-06 22:28:46,722 train INFO: val at epoch 254, top1=84.33000, top5=99.36000, loss=0.497408
+2022-03-06 22:31:03,374 train INFO: val at epoch 256, top1=84.28000, top5=99.43000, loss=0.502561
+2022-03-06 22:33:20,125 train INFO: val at epoch 258, top1=84.20000, top5=99.27000, loss=0.510231
+2022-03-06 22:34:25,584 train INFO: num of params in hdf5=860271
+2022-03-06 22:35:36,891 train INFO: val at epoch 260, top1=83.85000, top5=99.34000, loss=0.513900
+2022-03-06 22:37:55,234 train INFO: val at epoch 262, top1=83.36000, top5=99.27000, loss=0.546093
+2022-03-06 22:40:06,826 train INFO: num of params in hdf5=860271
+2022-03-06 22:40:12,860 train INFO: val at epoch 264, top1=84.26000, top5=99.28000, loss=0.504677
+2022-03-06 22:42:27,355 train INFO: val at epoch 266, top1=84.62000, top5=99.31000, loss=0.499264
+2022-03-06 22:44:42,167 train INFO: val at epoch 268, top1=84.44000, top5=99.31000, loss=0.497475
+2022-03-06 22:45:47,020 train INFO: num of params in hdf5=860271
+2022-03-06 22:46:57,302 train INFO: val at epoch 270, top1=84.56000, top5=99.48000, loss=0.496532
+2022-03-06 22:49:12,690 train INFO: val at epoch 272, top1=83.99000, top5=99.37000, loss=0.511024
+2022-03-06 22:51:22,802 train INFO: num of params in hdf5=860271
+2022-03-06 22:51:28,715 train INFO: val at epoch 274, top1=84.51000, top5=99.31000, loss=0.495538
+2022-03-06 22:53:44,337 train INFO: val at epoch 276, top1=84.39000, top5=99.35000, loss=0.500960
+2022-03-06 22:56:01,277 train INFO: val at epoch 278, top1=84.62000, top5=99.38000, loss=0.499804
+2022-03-06 22:57:06,857 train INFO: num of params in hdf5=860271
+2022-03-06 22:58:18,758 train INFO: val at epoch 280, top1=84.41000, top5=99.34000, loss=0.494338
+2022-03-06 23:00:35,629 train INFO: val at epoch 282, top1=84.93000, top5=99.30000, loss=0.494363
+2022-03-06 23:02:47,645 train INFO: num of params in hdf5=860271
+2022-03-06 23:02:53,989 train INFO: val at epoch 284, top1=84.74000, top5=99.40000, loss=0.482176
+2022-03-06 23:05:12,009 train INFO: val at epoch 286, top1=84.67000, top5=99.28000, loss=0.499381
+2022-03-06 23:07:29,670 train INFO: val at epoch 288, top1=84.76000, top5=99.30000, loss=0.486731
+2022-03-06 23:08:37,192 train INFO: num of params in hdf5=860271
+2022-03-06 23:09:54,767 train INFO: val at epoch 290, top1=84.41000, top5=99.36000, loss=0.496599
+2022-03-06 23:12:14,264 train INFO: val at epoch 292, top1=84.32000, top5=99.37000, loss=0.506789
+2022-03-06 23:14:27,927 train INFO: num of params in hdf5=860271
+2022-03-06 23:14:34,686 train INFO: val at epoch 294, top1=84.73000, top5=99.39000, loss=0.494816
+2022-03-06 23:16:52,933 train INFO: val at epoch 296, top1=84.62000, top5=99.33000, loss=0.497826
+2022-03-06 23:19:12,179 train INFO: val at epoch 298, top1=84.68000, top5=99.49000, loss=0.500481
+2022-03-06 23:20:17,401 train INFO: num of params in hdf5=860271
+2022-03-06 23:21:29,491 train INFO: val at epoch 300, top1=83.88000, top5=99.31000, loss=0.524480
+2022-03-06 23:23:48,277 train INFO: val at epoch 302, top1=84.68000, top5=99.48000, loss=0.499071
+2022-03-06 23:26:02,965 train INFO: num of params in hdf5=860271
+2022-03-06 23:26:09,096 train INFO: val at epoch 304, top1=84.53000, top5=99.36000, loss=0.494220
+2022-03-06 23:28:28,269 train INFO: val at epoch 306, top1=84.68000, top5=99.37000, loss=0.499194
+2022-03-06 23:30:48,581 train INFO: val at epoch 308, top1=85.02000, top5=99.39000, loss=0.476122
+2022-03-06 23:31:56,390 train INFO: num of params in hdf5=860271
+2022-03-06 23:33:11,599 train INFO: val at epoch 310, top1=84.33000, top5=99.45000, loss=0.516867
+2022-03-06 23:35:34,303 train INFO: val at epoch 312, top1=84.91000, top5=99.44000, loss=0.491209
+2022-03-06 23:37:51,398 train INFO: num of params in hdf5=860271
+2022-03-06 23:37:57,764 train INFO: val at epoch 314, top1=84.69000, top5=99.42000, loss=0.486718
+2022-03-06 23:40:21,213 train INFO: val at epoch 316, top1=84.64000, top5=99.39000, loss=0.497418
+2022-03-06 23:42:41,762 train INFO: val at epoch 318, top1=84.33000, top5=99.36000, loss=0.516669
+2022-03-06 23:43:47,959 train INFO: num of params in hdf5=860271
+2022-03-06 23:45:03,111 train INFO: val at epoch 320, top1=85.26000, top5=99.39000, loss=0.478785
+2022-03-06 23:47:19,588 train INFO: val at epoch 322, top1=84.74000, top5=99.36000, loss=0.495043
+2022-03-06 23:49:24,658 train INFO: num of params in hdf5=860271
+2022-03-06 23:49:29,787 train INFO: val at epoch 324, top1=85.00000, top5=99.50000, loss=0.482101
+2022-03-06 23:51:27,938 train INFO: val at epoch 326, top1=84.72000, top5=99.41000, loss=0.494049
+2022-03-06 23:53:23,541 train INFO: val at epoch 328, top1=85.23000, top5=99.37000, loss=0.490203
+2022-03-06 23:54:19,055 train INFO: num of params in hdf5=860271
+2022-03-06 23:55:19,781 train INFO: val at epoch 330, top1=84.87000, top5=99.37000, loss=0.486491
+2022-03-06 23:57:16,564 train INFO: val at epoch 332, top1=84.46000, top5=99.41000, loss=0.501097
+2022-03-06 23:59:03,349 train INFO: num of params in hdf5=860271
+2022-03-06 23:59:08,211 train INFO: val at epoch 334, top1=84.35000, top5=99.24000, loss=0.502627
+2022-03-07 00:00:57,198 train INFO: val at epoch 336, top1=85.25000, top5=99.39000, loss=0.486156
+2022-03-07 00:02:47,048 train INFO: val at epoch 338, top1=85.26000, top5=99.35000, loss=0.487580
+2022-03-07 00:03:40,711 train INFO: num of params in hdf5=860271
+2022-03-07 00:04:40,689 train INFO: val at epoch 340, top1=85.13000, top5=99.32000, loss=0.489854
+2022-03-07 00:06:36,102 train INFO: val at epoch 342, top1=85.02000, top5=99.36000, loss=0.492103
+2022-03-07 00:08:25,459 train INFO: num of params in hdf5=860271
+2022-03-07 00:08:30,330 train INFO: val at epoch 344, top1=84.26000, top5=99.36000, loss=0.516137
+2022-03-07 00:10:18,574 train INFO: val at epoch 346, top1=84.85000, top5=99.42000, loss=0.495772
+2022-03-07 00:12:06,770 train INFO: val at epoch 348, top1=85.34000, top5=99.32000, loss=0.487025
+2022-03-07 00:12:58,044 train INFO: num of params in hdf5=860271
+2022-03-07 00:13:54,058 train INFO: val at epoch 350, top1=84.88000, top5=99.27000, loss=0.500788
+2022-03-07 00:15:41,479 train INFO: val at epoch 352, top1=85.40000, top5=99.43000, loss=0.482682
+2022-03-07 00:17:23,667 train INFO: num of params in hdf5=860271
+2022-03-07 00:17:28,660 train INFO: val at epoch 354, top1=84.88000, top5=99.32000, loss=0.492434
+2022-03-07 00:19:15,613 train INFO: val at epoch 356, top1=84.92000, top5=99.38000, loss=0.489779
+2022-03-07 00:21:02,254 train INFO: val at epoch 358, top1=85.47000, top5=99.40000, loss=0.478459
+2022-03-07 00:21:53,258 train INFO: num of params in hdf5=860271
+2022-03-07 00:22:49,003 train INFO: val at epoch 360, top1=85.11000, top5=99.37000, loss=0.483044
+2022-03-07 00:24:35,711 train INFO: val at epoch 362, top1=85.10000, top5=99.35000, loss=0.487929
+2022-03-07 00:26:17,718 train INFO: num of params in hdf5=860271
+2022-03-07 00:26:22,483 train INFO: val at epoch 364, top1=85.05000, top5=99.39000, loss=0.494388
+2022-03-07 00:28:09,360 train INFO: val at epoch 366, top1=85.42000, top5=99.41000, loss=0.485756
+2022-03-07 00:29:56,381 train INFO: val at epoch 368, top1=85.43000, top5=99.41000, loss=0.477368
+2022-03-07 00:30:47,618 train INFO: num of params in hdf5=860271
+2022-03-07 00:31:43,490 train INFO: val at epoch 370, top1=85.40000, top5=99.42000, loss=0.483704
+2022-03-07 00:33:30,327 train INFO: val at epoch 372, top1=85.21000, top5=99.44000, loss=0.489342
+2022-03-07 00:35:12,284 train INFO: num of params in hdf5=860271
+2022-03-07 00:35:17,075 train INFO: val at epoch 374, top1=85.40000, top5=99.37000, loss=0.484510
+2022-03-07 00:37:03,722 train INFO: val at epoch 376, top1=85.40000, top5=99.31000, loss=0.480737
+2022-03-07 00:38:50,456 train INFO: val at epoch 378, top1=85.52000, top5=99.45000, loss=0.480329
+2022-03-07 00:39:41,653 train INFO: num of params in hdf5=860271
+2022-03-07 00:40:38,909 train INFO: val at epoch 380, top1=85.40000, top5=99.35000, loss=0.483007
+2022-03-07 00:42:25,972 train INFO: val at epoch 382, top1=85.36000, top5=99.40000, loss=0.481315
+2022-03-07 00:44:08,385 train INFO: num of params in hdf5=860271
+2022-03-07 00:44:13,208 train INFO: val at epoch 384, top1=85.57000, top5=99.38000, loss=0.478297
+2022-03-07 00:46:00,448 train INFO: val at epoch 386, top1=85.30000, top5=99.39000, loss=0.483864
+2022-03-07 00:47:47,892 train INFO: val at epoch 388, top1=85.34000, top5=99.40000, loss=0.487130
+2022-03-07 00:48:39,104 train INFO: num of params in hdf5=860271
+2022-03-07 00:49:35,091 train INFO: val at epoch 390, top1=85.50000, top5=99.45000, loss=0.479282
+2022-03-07 00:51:21,642 train INFO: val at epoch 392, top1=85.30000, top5=99.37000, loss=0.487339
+2022-03-07 00:53:03,491 train INFO: num of params in hdf5=860271
+2022-03-07 00:53:08,292 train INFO: val at epoch 394, top1=85.14000, top5=99.39000, loss=0.486139
+2022-03-07 00:54:56,096 train INFO: val at epoch 396, top1=85.26000, top5=99.44000, loss=0.483222
+2022-03-07 00:56:43,592 train INFO: val at epoch 398, top1=85.40000, top5=99.34000, loss=0.482853
+2022-03-07 00:57:34,432 train INFO: num of params in hdf5=860271
+2022-03-07 00:58:30,765 train INFO: val at epoch 400, top1=85.38000, top5=99.36000, loss=0.484083
+2022-03-07 01:00:17,971 train INFO: val at epoch 402, top1=85.43000, top5=99.35000, loss=0.479203
+2022-03-07 01:02:00,298 train INFO: num of params in hdf5=860271
+2022-03-07 01:02:05,106 train INFO: val at epoch 404, top1=85.35000, top5=99.39000, loss=0.486314
+2022-03-07 01:03:52,154 train INFO: val at epoch 406, top1=85.44000, top5=99.45000, loss=0.480993
+2022-03-07 01:05:40,020 train INFO: val at epoch 408, top1=85.52000, top5=99.38000, loss=0.482043
+2022-03-07 01:06:31,447 train INFO: num of params in hdf5=860271
+2022-03-07 01:07:27,483 train INFO: val at epoch 410, top1=85.61000, top5=99.35000, loss=0.478796
+2022-03-07 01:09:14,301 train INFO: val at epoch 412, top1=85.51000, top5=99.39000, loss=0.478956
+2022-03-07 01:10:56,412 train INFO: num of params in hdf5=860271
+2022-03-07 01:11:01,253 train INFO: val at epoch 414, top1=85.60000, top5=99.39000, loss=0.479628
+2022-03-07 01:12:47,825 train INFO: val at epoch 416, top1=85.50000, top5=99.40000, loss=0.476989
+2022-03-07 01:14:34,449 train INFO: val at epoch 418, top1=85.66000, top5=99.43000, loss=0.478408
+2022-03-07 01:15:25,642 train INFO: num of params in hdf5=860271
+2022-03-07 01:16:21,344 train INFO: val at epoch 420, top1=85.39000, top5=99.43000, loss=0.482866
+2022-03-07 01:18:08,219 train INFO: val at epoch 422, top1=85.58000, top5=99.41000, loss=0.483112
+2022-03-07 01:19:50,549 train INFO: num of params in hdf5=860271
+2022-03-07 01:19:55,331 train INFO: val at epoch 424, top1=85.48000, top5=99.38000, loss=0.480380
+2022-03-07 01:21:41,994 train INFO: val at epoch 426, top1=85.31000, top5=99.33000, loss=0.480388
+2022-03-07 01:23:28,939 train INFO: val at epoch 428, top1=85.35000, top5=99.39000, loss=0.479938
+2022-03-07 01:24:20,015 train INFO: num of params in hdf5=860271
+2022-03-07 01:25:15,878 train INFO: val at epoch 430, top1=85.56000, top5=99.39000, loss=0.479281
+2022-03-07 01:27:02,766 train INFO: val at epoch 432, top1=85.61000, top5=99.45000, loss=0.480809
+2022-03-07 01:28:45,165 train INFO: num of params in hdf5=860271
+2022-03-07 01:28:50,002 train INFO: val at epoch 434, top1=85.76000, top5=99.38000, loss=0.477393
+2022-03-07 01:30:36,878 train INFO: val at epoch 436, top1=85.77000, top5=99.40000, loss=0.473128
+2022-03-07 01:32:23,404 train INFO: val at epoch 438, top1=85.63000, top5=99.40000, loss=0.479893
+2022-03-07 01:33:14,681 train INFO: num of params in hdf5=860271
+2022-03-07 01:34:10,688 train INFO: val at epoch 440, top1=85.67000, top5=99.43000, loss=0.476269
+2022-03-07 01:35:57,393 train INFO: val at epoch 442, top1=85.64000, top5=99.45000, loss=0.475330
+2022-03-07 01:37:39,461 train INFO: num of params in hdf5=860271
+2022-03-07 01:37:44,258 train INFO: val at epoch 444, top1=85.45000, top5=99.41000, loss=0.478295
+2022-03-07 01:39:31,617 train INFO: val at epoch 446, top1=85.62000, top5=99.39000, loss=0.475212
+2022-03-07 01:41:18,664 train INFO: val at epoch 448, top1=85.56000, top5=99.42000, loss=0.477540
+2022-03-07 01:42:09,496 train INFO: num of params in hdf5=860271
+2022-03-07 01:43:05,628 train INFO: val at epoch 450, top1=85.68000, top5=99.48000, loss=0.476774
+2022-03-07 01:44:52,080 train INFO: val at epoch 452, top1=85.82000, top5=99.39000, loss=0.474629
+2022-03-07 01:46:34,551 train INFO: num of params in hdf5=860271
+2022-03-07 01:46:39,388 train INFO: val at epoch 454, top1=85.58000, top5=99.39000, loss=0.479117
+2022-03-07 01:48:26,517 train INFO: val at epoch 456, top1=85.67000, top5=99.37000, loss=0.478440
+2022-03-07 01:50:13,360 train INFO: val at epoch 458, top1=85.68000, top5=99.38000, loss=0.474980
+2022-03-07 01:51:04,494 train INFO: num of params in hdf5=860271
+2022-03-07 01:52:00,454 train INFO: val at epoch 460, top1=85.79000, top5=99.39000, loss=0.476927
+2022-03-07 01:53:47,482 train INFO: val at epoch 462, top1=85.73000, top5=99.40000, loss=0.475395
+2022-03-07 01:55:29,680 train INFO: num of params in hdf5=860271
+2022-03-07 01:55:34,355 train INFO: val at epoch 464, top1=85.67000, top5=99.41000, loss=0.475841
+2022-03-07 01:57:21,548 train INFO: val at epoch 466, top1=85.76000, top5=99.36000, loss=0.474861
+2022-03-07 01:59:08,293 train INFO: val at epoch 468, top1=85.60000, top5=99.38000, loss=0.478884
+2022-03-07 01:59:59,322 train INFO: num of params in hdf5=860271
+2022-03-07 02:00:55,015 train INFO: val at epoch 470, top1=85.66000, top5=99.42000, loss=0.477351
+2022-03-07 02:01:50,671 train INFO: val at epoch 471, top1=85.68000, top5=99.43000, loss=0.476397
+2022-03-07 02:02:46,380 train INFO: val at epoch 472, top1=85.60000, top5=99.42000, loss=0.476635
+2022-03-07 02:03:42,219 train INFO: val at epoch 473, top1=85.83000, top5=99.38000, loss=0.475484
+2022-03-07 02:04:33,033 train INFO: num of params in hdf5=860271
+2022-03-07 02:04:37,944 train INFO: val at epoch 474, top1=85.71000, top5=99.41000, loss=0.474073
+2022-03-07 02:05:34,535 train INFO: val at epoch 475, top1=85.65000, top5=99.40000, loss=0.481321
+2022-03-07 02:06:30,163 train INFO: val at epoch 476, top1=85.76000, top5=99.41000, loss=0.474277
+2022-03-07 02:07:25,822 train INFO: val at epoch 477, top1=85.48000, top5=99.38000, loss=0.478055
+2022-03-07 02:08:21,635 train INFO: val at epoch 478, top1=85.48000, top5=99.37000, loss=0.479405
+2022-03-07 02:09:13,259 train INFO: num of params in hdf5=860271
+2022-03-07 02:09:18,140 train INFO: val at epoch 479, top1=85.65000, top5=99.40000, loss=0.477245
+2022-03-07 02:09:18,140 train INFO: TRAIN speed: from 37488 to 74976 iterations, batch_size=64, examples=2399168, total_net_time=2658.6519, examples/sec=902.4001844253731
+2022-03-07 02:09:18,255 train INFO: num of params in hdf5=860271
+2022-03-07 02:09:18,256 train INFO: TRAIN LOSS collected over last 3 epochs: 0.193387

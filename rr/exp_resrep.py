@@ -8,7 +8,7 @@ sys.path.append(rootpath)  # 将工程根目录加入到python搜索路径中
 sys.path.extend([rootpath + i for i in os.listdir(rootpath) if i[0] != "."])  # 将工程目录下的一级目录添加到python搜索路径中
 sys.path.extend(syspath)
 from constants import *
-from rr.resrep_builder import ResRepBuilder
+from rr.resrep_builder import ResRepBuilder,FusionBuilder
 from rr.resrep_config import ResRepConfig
 from rr.resrep_train import resrep_train_main
 from base_config import get_baseconfig_by_epoch
@@ -87,7 +87,8 @@ if __name__ == '__main__':
                                      tb_dir=log_dir, save_weights=None, val_epoch_period=2, linear_final_lr=lrs.linear_final_lr,
                                      weight_decay_bias=weight_decay_bias, deps=deps)
 
-    resrep_builder = ResRepBuilder(base_config=config, resrep_config=resrep_config)
+    # resrep_builder = ResRepBuilder(base_config=config, resrep_config=resrep_config)
+    fusion_builder = FusionBuilder(base_config=config, resrep_config=resrep_config)
 
     if resrep_config.weight_decay_on_compactor:
         no_l2_keywords = ['depth']
@@ -97,10 +98,9 @@ if __name__ == '__main__':
     print('######################################################')
     print('start ere, the original flops is ', flops_func(deps))
     print('######################################################')
-
     if not os.path.exists(os.path.join(config.output_dir,  'finish_converted.hdf5')):
         resrep_train_main(local_rank=start_arg.local_rank,
-                          cfg=config, resrep_config=resrep_config, resrep_builder=resrep_builder, show_variables=True,
+                          cfg=config, resrep_config=resrep_config, resrep_builder=fusion_builder, show_variables=True,
                           init_hdf5=init_hdf5,
                           auto_continue=auto_continue,
                           no_l2_keywords=no_l2_keywords)

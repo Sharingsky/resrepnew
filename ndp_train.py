@@ -117,8 +117,10 @@ save_hdf5_epochs=10000):
         if convbuilder is None:
             convbuilder = ConvBuilder(base_config=cfg)
         if net is None:
-            net_fn = get_model_fn(cfg.dataset_name, cfg.network_type)
-            model = net_fn(cfg, convbuilder)
+            # net_fn = get_model_fn(cfg.dataset_name, cfg.network_type)
+            # model = net_fn(cfg, convbuilder)
+            from base_model.resnet56 import resnet56
+            model =resnet56(add_gates=None)
         else:
             model = net
         model = model.cuda()

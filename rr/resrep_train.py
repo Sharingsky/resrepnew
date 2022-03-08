@@ -122,6 +122,22 @@ def compute_similarity(model):
     similarlist=sorted(similarlist,key=lambda x:x[0])
     print(1)
     return similarlist
+def get_all_layer_similar(similar_lis):
+    layer_sim_dict = dict()
+    for item in similar_lis:#(tensor(similar),(layercouple1,layercouple2))#一个字典，对应层为关键字，数据为相似度求和
+        for data in item[1]:
+            if data not in layer_sim_dict:
+                layer_sim_dict[data]=[]
+                layer_sim_dict[data].append(item[0])
+                layer_sim_dict[data].append(0)
+            else:
+                layer_sim_dict[data][0]=layer_sim_dict[data][0]+item[0]
+                layer_sim_dict[data][1]+=1
+    new_layer_dict = dict()
+    for key,item in layer_sim_dict.items():
+        new_layer_dict[key]=item[0]/item[1]
+    soted_layer_sim_dict = sorted(new_layer_dict.items(),key=lambda x:x[1],reverse=True)
+    print(new_layer_dict)
 def compute_flops(model):
     from thop import profile
     inpu=torch.randn(size=(1,3,32,32)).cuda()
@@ -134,8 +150,8 @@ def layer_zeros(model:nn.Module,fusion_mask):
             if 'conv.weight' in name:
                 conv_idx+=1
             if fusion_mask[conv_idx]==0:
+                param.data = 0 * param.data
                 if param.grad is not None:
-                    param.data = 0 * param.data
                     param.grad=0*param.grad
                     param.requires_grad=False
 
@@ -250,9 +266,12 @@ def resrep_train_main(
         collected_train_loss_count = 0
 
         similarity_list = compute_similarity(model)
+        layer_similar_lis=get_all_layer_similar(similarity_list)
         compute_flops(model)
-        layer_fusion_per_epochs=5
-        fusion_mask = np.random.randint(2,size=58)
+
+        layer_fusion_per_epochs=1
+        # fusion_mask = np.random.randint(2,size=58)
+        fusion_mask=[1] * 22 + [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1] + [0] * 16+[1]*2
         mask_times=0
         for epoch in range(done_epochs, cfg.max_epochs):
 
@@ -263,12 +282,16 @@ def resrep_train_main(
                 #              dataset_name=cfg.dataset_name, test_batch_size=TEST_BATCH_SIZE, tb_writer=tb_writer)
             if (epoch+1) % layer_fusion_per_epochs ==0:
                 mask_times+=1
+                count =0
                 for i in range(mask_times):
                     for j in range(len(fusion_mask)):
                         if fusion_mask[j]==0:
-                            fusion_mask[j]=1
-                            break
-                layer_zeros(model,fusion_mask=fusion_mask)
+                            out_idx = j
+                            count+=1
+                            if count % mask_times==0:
+                                break
+                fusion_mask_true=np.bitwise_or(fusion_mask,(out_idx+1)*[0]+(len(fusion_mask)-out_idx-1)*[1])
+                layer_zeros(model,fusion_mask=fusion_mask_true)
 
             if engine.distributed and hasattr(train_data, 'train_sampler'):
                 train_data.train_sampler.set_epoch(epoch)
